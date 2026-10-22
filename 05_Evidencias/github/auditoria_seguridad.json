@@ -1,0 +1,70 @@
+{
+  "estado": "sin_patrones_de_secretos_detectados",
+  "archivos_candidatos": 64,
+  "csv_preparados": [
+    {
+      "archivo": "dim_anio.csv",
+      "bytes": 54,
+      "filas": 4,
+      "publicado_git": false
+    },
+    {
+      "archivo": "dim_clasificador_gasto.csv",
+      "bytes": 295864,
+      "filas": 476,
+      "publicado_git": false
+    },
+    {
+      "archivo": "dim_entidad.csv",
+      "bytes": 1549637,
+      "filas": 2898,
+      "publicado_git": false
+    },
+    {
+      "archivo": "dim_financiamiento.csv",
+      "bytes": 40221,
+      "filas": 114,
+      "publicado_git": false
+    },
+    {
+      "archivo": "dim_funcion.csv",
+      "bytes": 97776,
+      "filas": 356,
+      "publicado_git": false
+    },
+    {
+      "archivo": "dim_intervencion.csv",
+      "bytes": 14319291,
+      "filas": 18654,
+      "publicado_git": false
+    },
+    {
+      "archivo": "dim_meta.csv",
+      "bytes": 54469802,
+      "filas": 121305,
+      "publicado_git": false
+    },
+    {
+      "archivo": "fact_ejecucion_presupuestaria_anual.csv",
+      "bytes": 28548877,
+      "filas": 150000,
+      "publicado_git": false
+    }
+  ],
+  "credenciales_detectadas": 0,
+  "patrones_personales_en_descripciones": 0,
+  "lineas_dump_inspeccionadas": 294459,
+  "dump_sin_patrones_de_credenciales": true,
+  "archivos_sobre_100MB": 0,
+  "limite_github_mib": 100,
+  "mayor_publicable": "01_Base_de_Datos/respaldo/dw_mef_2022_2025_completo_20261022T182048021354Z.dump",
+  "mayor_publicable_bytes": 19354326,
+  "segundo_intento_restauracion_rechazado": true,
+  "conexion_tcp_aislada_verificada": true,
+  "instalacion_python": "Entorno virtual nuevo, requisitos normales y visuales instalados; prueba local.",
+  "alcance": "Deteccion automatizada de patrones y revision de columnas; no certificacion legal ni ausencia absoluta de datos personales.",
+  "revision_final_candidatos_git": true,
+  "rutas_usuario_en_candidatos": 0,
+  "sintaxis_python_correcta": true,
+  "recursos_prueba_retirados": true
+}

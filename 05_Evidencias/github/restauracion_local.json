@@ -1,0 +1,137 @@
+{
+  "database": "dw_mef_2022_2025",
+  "role": "mef_admin",
+  "version": "PostgreSQL 15.19 (Debian 15.19-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+  "fact_rows": 150000,
+  "unique_origin": 150000,
+  "unique_grain": 150000,
+  "fk_validated": 7,
+  "joined_rows": 150000,
+  "orphans": 0,
+  "meta_context_mismatch": 0,
+  "dimensions": {
+    "mef.dim_anio": 4,
+    "mef.dim_financiamiento": 114,
+    "mef.dim_funcion": 356,
+    "mef.dim_clasificador_gasto": 476,
+    "mef.dim_entidad": 2898,
+    "mef.dim_intervencion": 18654,
+    "mef.dim_meta": 121305
+  },
+  "by_year": [
+    {
+      "anio": 2022,
+      "hechos": 37500,
+      "pia": "7160329078.00",
+      "pim": "4444957539.00",
+      "certificado": "3117400430.81",
+      "comprometido_anual": "2987917276.19",
+      "comprometido": "3166518205.05",
+      "devengado": "3051967587.64",
+      "girado": "3012287406.45"
+    },
+    {
+      "anio": 2023,
+      "hechos": 37500,
+      "pia": "2452274432.00",
+      "pim": "2862145499.00",
+      "certificado": "2728618602.90",
+      "comprometido_anual": "2618795165.87",
+      "comprometido": "2516106901.58",
+      "devengado": "2491634677.99",
+      "girado": "2488350151.22"
+    },
+    {
+      "anio": 2024,
+      "hechos": 37500,
+      "pia": "2907341142.00",
+      "pim": "3494380573.00",
+      "certificado": "3382293746.88",
+      "comprometido_anual": "3298710845.74",
+      "comprometido": "3296212002.76",
+      "devengado": "3260710447.90",
+      "girado": "3256666735.87"
+    },
+    {
+      "anio": 2025,
+      "hechos": 37500,
+      "pia": "2925939597.00",
+      "pim": "3551680414.00",
+      "certificado": "3462054522.42",
+      "comprometido_anual": "3393490905.76",
+      "comprometido": "3271586534.89",
+      "devengado": "3224421680.28",
+      "girado": "3223087084.13"
+    }
+  ],
+  "by_level": [
+    {
+      "nivel_gobierno": "E",
+      "hechos": 23565,
+      "entidades": 401
+    },
+    {
+      "nivel_gobierno": "M",
+      "hechos": 98105,
+      "entidades": 1933
+    },
+    {
+      "nivel_gobierno": "R",
+      "hechos": 28330,
+      "entidades": 564
+    }
+  ],
+  "negative_rows": 7,
+  "status": "verified",
+  "checked_at_utc": "2026-10-22T20:25:27.186999+00:00",
+  "relaciones": [
+    {
+      "origen": "anio_key",
+      "destino": "dim_anio",
+      "referencia": "anio_key",
+      "validada": true
+    },
+    {
+      "origen": "clasificador_gasto_key",
+      "destino": "dim_clasificador_gasto",
+      "referencia": "clasificador_gasto_key",
+      "validada": true
+    },
+    {
+      "origen": "entidad_key",
+      "destino": "dim_entidad",
+      "referencia": "entidad_key",
+      "validada": true
+    },
+    {
+      "origen": "financiamiento_key",
+      "destino": "dim_financiamiento",
+      "referencia": "financiamiento_key",
+      "validada": true
+    },
+    {
+      "origen": "funcion_key",
+      "destino": "dim_funcion",
+      "referencia": "funcion_key",
+      "validada": true
+    },
+    {
+      "origen": "intervencion_key",
+      "destino": "dim_intervencion",
+      "referencia": "intervencion_key",
+      "validada": true
+    },
+    {
+      "origen": "meta_key",
+      "destino": "dim_meta",
+      "referencia": "meta_key",
+      "validada": true
+    }
+  ],
+  "verificacion_solo_lectura": true,
+  "estado": "restaurado_y_verificado",
+  "restauracion_completa_ejecutada": true,
+  "fecha_utc": "2026-10-22T20:25:27.437622+00:00",
+  "sha256": "b9177e726595b4621de32a347e9d56fbbab0bf811e79bdff2be2899923c3c138",
+  "propietarios": "Objetos propiedad del usuario configurado; sin restaurar ACL ni roles globales."
+}

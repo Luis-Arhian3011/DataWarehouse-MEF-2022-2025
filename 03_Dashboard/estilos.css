@@ -1,0 +1,36 @@
+
+.stApp { background:radial-gradient(ellipse at 85% 0%,#11354666,transparent 44%),#081321; }
+.block-container { max-width:1460px; padding-top:2.5rem; padding-bottom:3rem; }
+[data-testid="stSidebar"] { background:#0B192A; border-right:1px solid #20344A; }
+[data-testid="stSidebar"] .block-container { padding-top:2rem; }
+h1,h2,h3 { letter-spacing:-.035em; }
+h1 { font-size:2.65rem!important; line-height:1.12!important; }
+h2 { font-size:1.5rem!important; margin-top:.6rem!important; }
+h3 { font-size:1.1rem!important; }
+p,li { line-height:1.65; }
+.eyebrow { color:#39D6C5; font-size:.74rem; letter-spacing:.18em; font-weight:700; margin-bottom:12px; }
+.brand { font-size:1.7rem; font-weight:800; letter-spacing:-.07em; color:#EEF6FF; }
+.brand span { color:#39D6C5; }
+.brand-sub { color:#8FA5BA; font-size:.73rem; letter-spacing:.14em; margin-bottom:26px; }
+.hero { padding:20px 0 12px; }
+.hero p { color:#A6B7C9; max-width:800px; }
+.pill { display:inline-block; font-size:.73rem; border:1px solid #29475A; background:#102A35; color:#86E5D7; padding:5px 12px; border-radius:30px; margin-right:7px; margin-bottom:12px; }
+.pill.gold { border-color:#63583B; background:#2C281E; color:#E7C77C; }
+.kpis { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:14px; margin:14px 0 22px; }
+.kpi { background:linear-gradient(140deg,#142B40,#0E1E30); border:1px solid #263D50; border-radius:14px; padding:22px 18px; min-height:145px; }
+.kpi .label { font-size:.79rem; color:#B6C7D6; margin-bottom:12px; }
+.kpi .value { font-size:1.75rem; font-weight:750; letter-spacing:-.045em; color:#F1F6FC; white-space:nowrap; }
+.kpi .note { font-size:.70rem; color:#8EA5BA; margin-top:9px; }
+.kpi:nth-child(3) { border-top:2px solid #39D6C5; }
+.kpi:nth-child(4) .value { color:#E7C77C; }
+[data-testid="stPlotlyChart"] { border:1px solid #22384D; border-radius:14px; overflow:hidden; }
+[data-testid="stAlert"] { border-radius:12px; }
+[data-testid="stDownloadButton"] button { border-color:#2C665F; color:#8FE8DD; }
+[data-testid="stSidebar"] [data-testid="stRadio"] label { padding:5px 0; }
+.footer { color:#7F97AC; border-top:1px solid #24384D; padding-top:18px; margin-top:28px; font-size:.73rem; }
+@media(max-width:1100px) { .kpis { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media(max-width:640px) { .block-container { padding:4rem 1rem 1rem; } h1 { font-size:2rem!important; } .kpis { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; } .kpi { padding:15px 12px; } .kpi .value { font-size:1.3rem; } }
+
+.esquema-scroll { overflow-x:auto; max-width:100%; border:1px solid #263D50; border-radius:14px; background:#0E1E30; }
+.esquema-scroll svg { display:block; min-width:900px; width:100%; height:auto; }
+[data-testid="stDataFrame"] { border:1px solid #263D50; border-radius:10px; }

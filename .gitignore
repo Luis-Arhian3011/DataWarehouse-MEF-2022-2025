@@ -1,0 +1,48 @@
+# Secretos reales; las plantillas se incluyen.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets.toml
+**/*.pem
+**/*.key
+**/.secrets/
+# Entornos, caches y configuracion personal
+**/.venv/
+**/venv/
+**/env/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.cache/
+**/.streamlit/cache/
+**/.streamlit/credentials.toml
+**/.vscode/
+**/.idea/
+# Temporales y logs
+**/*.log
+**/*.tmp
+**/*.temp
+**/*.pid
+**/*.duckdb*
+**/spill/
+**/temporal/
+03_Dashboard/evidencias/
+02_ETL_Python/evidencias/
+# Opcionales para el ETL historico: no necesarios para recuperar desde .dump.
+02_ETL_Python/datos_carga/*.csv
+# Se conservan el respaldo .dump, SQL, hashes y evidencias finales.
+.DS_Store
+Thumbs.db
+
+# Metadatos privados e informes operativos locales anteriores
+05_Evidencias/github/ubicacion_prueba.json
+05_Evidencias/comprobacion_entrega/
+05_Evidencias/inventario_copias.json
+04_Documentacion/REVISION_ENTREGA.md
+04_Documentacion/INVENTARIO.md
+04_Documentacion/ARBOL_ARCHIVOS.txt

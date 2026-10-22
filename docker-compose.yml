@@ -1,0 +1,31 @@
+name: ${COMPOSE_PROJECT_NAME:-mef2025}
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-mef_admin}
+      # Solo mantenimiento; la base objetivo se crea mediante el script de restauración.
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+    secrets:
+      - postgres_password
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - type: bind
+        source: ./01_Base_de_Datos/respaldo/dw_mef_2022_2025_completo_20261022T182048021354Z.dump
+        target: /respaldo/mef.dump
+        read_only: true
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$$POSTGRES_USER\" -d postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
+    restart: "no"
+volumes:
+  pgdata: {}
+secrets:
+  postgres_password:
+    environment: POSTGRES_PASSWORD

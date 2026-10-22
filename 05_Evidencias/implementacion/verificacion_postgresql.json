@@ -1,0 +1,87 @@
+{
+  "database": "dw_mef_2022_2025",
+  "role": "luchito",
+  "version": "PostgreSQL 15.19 (Debian 15.19-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+  "fact_rows": 150000,
+  "unique_origin": 150000,
+  "unique_grain": 150000,
+  "fk_validated": 7,
+  "joined_rows": 150000,
+  "orphans": 0,
+  "meta_context_mismatch": 0,
+  "dimensions": {
+    "mef.dim_anio": 4,
+    "mef.dim_entidad": 2898,
+    "mef.dim_intervencion": 18654,
+    "mef.dim_funcion": 356,
+    "mef.dim_meta": 121305,
+    "mef.dim_financiamiento": 114,
+    "mef.dim_clasificador_gasto": 476
+  },
+  "by_year": [
+    {
+      "anio": 2022,
+      "hechos": 37500,
+      "pia": "7160329078.00",
+      "pim": "4444957539.00",
+      "certificado": "3117400430.81",
+      "comprometido_anual": "2987917276.19",
+      "comprometido": "3166518205.05",
+      "devengado": "3051967587.64",
+      "girado": "3012287406.45"
+    },
+    {
+      "anio": 2023,
+      "hechos": 37500,
+      "pia": "2452274432.00",
+      "pim": "2862145499.00",
+      "certificado": "2728618602.90",
+      "comprometido_anual": "2618795165.87",
+      "comprometido": "2516106901.58",
+      "devengado": "2491634677.99",
+      "girado": "2488350151.22"
+    },
+    {
+      "anio": 2024,
+      "hechos": 37500,
+      "pia": "2907341142.00",
+      "pim": "3494380573.00",
+      "certificado": "3382293746.88",
+      "comprometido_anual": "3298710845.74",
+      "comprometido": "3296212002.76",
+      "devengado": "3260710447.90",
+      "girado": "3256666735.87"
+    },
+    {
+      "anio": 2025,
+      "hechos": 37500,
+      "pia": "2925939597.00",
+      "pim": "3551680414.00",
+      "certificado": "3462054522.42",
+      "comprometido_anual": "3393490905.76",
+      "comprometido": "3271586534.89",
+      "devengado": "3224421680.28",
+      "girado": "3223087084.13"
+    }
+  ],
+  "by_level": [
+    {
+      "nivel_gobierno": "E",
+      "hechos": 23565,
+      "entidades": 401
+    },
+    {
+      "nivel_gobierno": "M",
+      "hechos": 98105,
+      "entidades": 1933
+    },
+    {
+      "nivel_gobierno": "R",
+      "hechos": 28330,
+      "entidades": 564
+    }
+  ],
+  "negative_rows": 7,
+  "status": "verified",
+  "checked_at_utc": "2026-10-22T18:18:21.573032+00:00"
+}

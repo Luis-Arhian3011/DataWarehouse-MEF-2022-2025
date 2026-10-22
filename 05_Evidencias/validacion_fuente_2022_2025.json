@@ -1,0 +1,516 @@
+{
+  "root": "C:\\DataWarehouse_MEF",
+  "period": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "excluded_year": 2026,
+  "source": "C:\\DataWarehouse_MEF\\datos\\comparativo_gastos_2022_2026.csv",
+  "source_sha256_previous_audit": "f1d5e01a2d532cbe02694b65496bd322b4e9bff62d6a95c362e2873b8979401c",
+  "source_size_mtime_and_five_sample_match": true,
+  "storage": "copia completa raw de auditoria anterior, adjunta READ_ONLY",
+  "status": "completed",
+  "database_changes": false,
+  "selection_seed": "MEF_KIMBALL_2022_2025_V1",
+  "expected_facts": 150000,
+  "rows": 8468325,
+  "comparison_2025_2026": {
+    "pia": 0,
+    "pim": 0,
+    "certificado": 0,
+    "comprometido_anual": 0,
+    "comprometido": 0,
+    "devengado": 0,
+    "girado": 0
+  },
+  "money_2025": [
+    {
+      "medida": "CERTIFICADO_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 2,
+      "negativos": 6,
+      "minimo": "-7375.00",
+      "maximo": "10472099038.77"
+    },
+    {
+      "medida": "COMPROMETIDO_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 2,
+      "negativos": 7,
+      "minimo": "-2339.00",
+      "maximo": "10472099038.77"
+    },
+    {
+      "medida": "COMPROMETIDO_ANUAL_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 2,
+      "negativos": 5,
+      "minimo": "-2339.00",
+      "maximo": "10472099038.77"
+    },
+    {
+      "medida": "DEVENGADO_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 2,
+      "negativos": 26,
+      "minimo": "-553157.55",
+      "maximo": "10472099038.77"
+    },
+    {
+      "medida": "GIRADO_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 2,
+      "negativos": 11,
+      "minimo": "-16905746.00",
+      "maximo": "10472099038.77"
+    },
+    {
+      "medida": "PIA_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 0,
+      "negativos": 0,
+      "minimo": "0.00",
+      "maximo": "10379635814.00"
+    },
+    {
+      "medida": "PIM_2025",
+      "celdas": 8468325,
+      "vacios": 0,
+      "invalidos": 0,
+      "desbordamientos": 0,
+      "escala_maxima": 0,
+      "negativos": 5,
+      "minimo": "-327091.00",
+      "maximo": "10473142584.00"
+    }
+  ],
+  "wide_totals_2025": {
+    "pia": "251801045185.00",
+    "pim": "272450859407.00",
+    "certificado": "263083632991.19",
+    "comprometido_anual": "258771064633.88",
+    "comprometido": "256986995951.27",
+    "devengado": "253678539140.74",
+    "girado": "253349905780.84"
+  },
+  "pia_2025_by_generica": [
+    {
+      "generica": "0",
+      "pia": "6876048927.00"
+    },
+    {
+      "generica": "1",
+      "pia": "83655277143.00"
+    },
+    {
+      "generica": "2",
+      "pia": "15544576011.00"
+    },
+    {
+      "generica": "3",
+      "pia": "38785509480.00"
+    },
+    {
+      "generica": "4",
+      "pia": "10849553720.00"
+    },
+    {
+      "generica": "5",
+      "pia": "10357418086.00"
+    },
+    {
+      "generica": "6",
+      "pia": "57708614343.00"
+    },
+    {
+      "generica": "7",
+      "pia": "461275315.00"
+    },
+    {
+      "generica": "8",
+      "pia": "27562772160.00"
+    }
+  ],
+  "pia_2025_by_level": [
+    {
+      "nivel": "E",
+      "pia": "162019333580.00"
+    },
+    {
+      "nivel": "M",
+      "pia": "35323230357.00"
+    },
+    {
+      "nivel": "R",
+      "pia": "54458481248.00"
+    }
+  ],
+  "official_reference_2025": {
+    "law": "32185",
+    "total_pia": "251801045185.00",
+    "url": "https://www.mef.gob.pe/contenidos/presu_publ/anexos/ppto2025/Anexo_1.PDF",
+    "generica_pia": {
+      "0": "6876048927",
+      "1": "83655277143",
+      "2": "15544576011",
+      "3": "38785509480",
+      "4": "10849553720",
+      "5": "10357418086",
+      "6": "57708614343",
+      "7": "461275315",
+      "8": "27562772160"
+    },
+    "levels": {
+      "E": "162019333580",
+      "R": "54458481248",
+      "M": "35323230357"
+    }
+  },
+  "official_reference_2026": {
+    "law": "32513",
+    "total_pia": "257561619143.00",
+    "url": "https://www.mef.gob.pe/contenidos/presu_publ/anexos/ppto2026/Ley_N_32513-LeydePpto2026.pdf",
+    "supporting_html": "https://comunicaciones.congreso.gob.pe/noticias/aprueban-dictamen-de-ley-de-equilibrio-financiero-del-sector-publico-para-el-2026/"
+  },
+  "pia_2025_matches_legal_total": true,
+  "pia_2025_generica_legal_comparison": [
+    {
+      "generica": "0",
+      "csv_pia": "6876048927.00",
+      "legal_pia": "6876048927",
+      "difference": "0.00"
+    },
+    {
+      "generica": "1",
+      "csv_pia": "83655277143.00",
+      "legal_pia": "83655277143",
+      "difference": "0.00"
+    },
+    {
+      "generica": "2",
+      "csv_pia": "15544576011.00",
+      "legal_pia": "15544576011",
+      "difference": "0.00"
+    },
+    {
+      "generica": "3",
+      "csv_pia": "38785509480.00",
+      "legal_pia": "38785509480",
+      "difference": "0.00"
+    },
+    {
+      "generica": "4",
+      "csv_pia": "10849553720.00",
+      "legal_pia": "10849553720",
+      "difference": "0.00"
+    },
+    {
+      "generica": "5",
+      "csv_pia": "10357418086.00",
+      "legal_pia": "10357418086",
+      "difference": "0.00"
+    },
+    {
+      "generica": "6",
+      "csv_pia": "57708614343.00",
+      "legal_pia": "57708614343",
+      "difference": "0.00"
+    },
+    {
+      "generica": "7",
+      "csv_pia": "461275315.00",
+      "legal_pia": "461275315",
+      "difference": "0.00"
+    },
+    {
+      "generica": "8",
+      "csv_pia": "27562772160.00",
+      "legal_pia": "27562772160",
+      "difference": "0.00"
+    }
+  ],
+  "pia_2025_generica_matches": true,
+  "active_2025": 2637463,
+  "key_2025": {
+    "unique_keys": 2637463,
+    "repeated_keys": 0,
+    "excess_rows": 0
+  },
+  "grain_2025": {
+    "unique_grains": 2632520,
+    "repeated_grains": 4943,
+    "ambiguous_rows": 9886,
+    "max_multiplicity": 2
+  },
+  "grain_2025_amount_variants": [
+    {
+      "variants": 2,
+      "groups": 4943,
+      "source_rows": 9886
+    }
+  ],
+  "eligible_by_year": [
+    {
+      "anio": 2022,
+      "hechos": 2503009
+    },
+    {
+      "anio": 2023,
+      "hechos": 2590556
+    },
+    {
+      "anio": 2024,
+      "hechos": 2607495
+    },
+    {
+      "anio": 2025,
+      "hechos": 2627577
+    }
+  ],
+  "reconciliation_2025": {
+    "annual_rows": 8468325,
+    "pia": "251801045185.00",
+    "pim": "272450859407.00",
+    "certificado": "263083632991.19",
+    "comprometido_anual": "258771064633.88",
+    "comprometido": "256986995951.27",
+    "devengado": "253678539140.74",
+    "girado": "253349905780.84"
+  },
+  "reconciliation_active_2025": {
+    "active_rows": 2637463,
+    "pia": "251801045185.00",
+    "pim": "272450859407.00",
+    "certificado": "263083632991.19",
+    "comprometido_anual": "258771064633.88",
+    "comprometido": "256986995951.27",
+    "devengado": "253678539140.74",
+    "girado": "253349905780.84"
+  },
+  "reconciliation_2025_ok": true,
+  "meta_2025_fd": {
+    "contexts": 264498,
+    "contexts_with_name_variants": 1293,
+    "max_variants": 2
+  },
+  "selected": [
+    {
+      "anio": 2022,
+      "hechos": 37500,
+      "unique_grains": 37500,
+      "unique_source_keys": 37500,
+      "levels": 3,
+      "entities": 2851
+    },
+    {
+      "anio": 2023,
+      "hechos": 37500,
+      "unique_grains": 37500,
+      "unique_source_keys": 37500,
+      "levels": 3,
+      "entities": 2853
+    },
+    {
+      "anio": 2024,
+      "hechos": 37500,
+      "unique_grains": 37500,
+      "unique_source_keys": 37500,
+      "levels": 3,
+      "entities": 2855
+    },
+    {
+      "anio": 2025,
+      "hechos": 37500,
+      "unique_grains": 37500,
+      "unique_source_keys": 37500,
+      "levels": 3,
+      "entities": 2873
+    }
+  ],
+  "sampling_totals": [
+    {
+      "anio": 2022,
+      "pia": "7160329078.00",
+      "pim": "4444957539.00",
+      "certificado": "3117400430.81",
+      "comprometido_anual": "2987917276.19",
+      "comprometido": "3166518205.05",
+      "devengado": "3051967587.64",
+      "girado": "3012287406.45"
+    },
+    {
+      "anio": 2023,
+      "pia": "2452274432.00",
+      "pim": "2862145499.00",
+      "certificado": "2728618602.90",
+      "comprometido_anual": "2618795165.87",
+      "comprometido": "2516106901.58",
+      "devengado": "2491634677.99",
+      "girado": "2488350151.22"
+    },
+    {
+      "anio": 2024,
+      "pia": "2907341142.00",
+      "pim": "3494380573.00",
+      "certificado": "3382293746.88",
+      "comprometido_anual": "3298710845.74",
+      "comprometido": "3296212002.76",
+      "devengado": "3260710447.90",
+      "girado": "3256666735.87"
+    },
+    {
+      "anio": 2025,
+      "pia": "2925939597.00",
+      "pim": "3551680414.00",
+      "certificado": "3462054522.42",
+      "comprometido_anual": "3393490905.76",
+      "comprometido": "3271586534.89",
+      "devengado": "3224421680.28",
+      "girado": "3223087084.13"
+    }
+  ],
+  "sampling_by_year_level": [
+    {
+      "anio": 2022,
+      "NIVEL_GOBIERNO": "E",
+      "facts": 6213,
+      "entities": 369
+    },
+    {
+      "anio": 2022,
+      "NIVEL_GOBIERNO": "M",
+      "facts": 24189,
+      "entities": 1922
+    },
+    {
+      "anio": 2022,
+      "NIVEL_GOBIERNO": "R",
+      "facts": 7098,
+      "entities": 560
+    },
+    {
+      "anio": 2023,
+      "NIVEL_GOBIERNO": "E",
+      "facts": 5601,
+      "entities": 372
+    },
+    {
+      "anio": 2023,
+      "NIVEL_GOBIERNO": "M",
+      "facts": 24910,
+      "entities": 1918
+    },
+    {
+      "anio": 2023,
+      "NIVEL_GOBIERNO": "R",
+      "facts": 6989,
+      "entities": 563
+    },
+    {
+      "anio": 2024,
+      "NIVEL_GOBIERNO": "E",
+      "facts": 5729,
+      "entities": 374
+    },
+    {
+      "anio": 2024,
+      "NIVEL_GOBIERNO": "M",
+      "facts": 24671,
+      "entities": 1917
+    },
+    {
+      "anio": 2024,
+      "NIVEL_GOBIERNO": "R",
+      "facts": 7100,
+      "entities": 564
+    },
+    {
+      "anio": 2025,
+      "NIVEL_GOBIERNO": "E",
+      "facts": 6022,
+      "entities": 391
+    },
+    {
+      "anio": 2025,
+      "NIVEL_GOBIERNO": "M",
+      "facts": 24335,
+      "entities": 1918
+    },
+    {
+      "anio": 2025,
+      "NIVEL_GOBIERNO": "R",
+      "facts": 7143,
+      "entities": 564
+    }
+  ],
+  "resumed_after": "Prueba global de orden inverso excedio 1GB; se particiona por anio y nivel, sin releer fuente",
+  "reproducibility_difference": 0,
+  "sampling_source_totals": [
+    {
+      "anio": 2022,
+      "pia": "7160329078.00",
+      "pim": "4444957539.00",
+      "certificado": "3117400430.81",
+      "comprometido_anual": "2987917276.19",
+      "comprometido": "3166518205.05",
+      "devengado": "3051967587.64",
+      "girado": "3012287406.45"
+    },
+    {
+      "anio": 2023,
+      "pia": "2452274432.00",
+      "pim": "2862145499.00",
+      "certificado": "2728618602.90",
+      "comprometido_anual": "2618795165.87",
+      "comprometido": "2516106901.58",
+      "devengado": "2491634677.99",
+      "girado": "2488350151.22"
+    },
+    {
+      "anio": 2024,
+      "pia": "2907341142.00",
+      "pim": "3494380573.00",
+      "certificado": "3382293746.88",
+      "comprometido_anual": "3298710845.74",
+      "comprometido": "3296212002.76",
+      "devengado": "3260710447.90",
+      "girado": "3256666735.87"
+    },
+    {
+      "anio": 2025,
+      "pia": "2925939597.00",
+      "pim": "3551680414.00",
+      "certificado": "3462054522.42",
+      "comprometido_anual": "3393490905.76",
+      "comprometido": "3271586534.89",
+      "devengado": "3224421680.28",
+      "girado": "3223087084.13"
+    }
+  ],
+  "sampling_reconciliation_ok": true,
+  "source_size_mtime_unchanged": true,
+  "pia_2025_levels_match_law": true,
+  "2025_use_assessment": "usable_para_proyecto_academico_como_instantanea_de_fuente_con_corte_no_certificado",
+  "2025_2026_cause": "No determinable con este archivo. PIA 2025 coincide con ley total/genericas/niveles; el bloque identico 2026 no es evidencia independiente. No se certifica externamente la ejecucion ni el corte 2025.",
+  "resumed_elapsed_seconds": 36.62
+}

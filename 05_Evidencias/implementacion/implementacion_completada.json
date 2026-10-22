@@ -1,0 +1,32 @@
+{
+  "status": "created_loaded_verified",
+  "database": "dw_mef_2022_2025",
+  "container": "postgres-db",
+  "role": "luchito",
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "excluded_year": 2026,
+  "fact_rows": 150000,
+  "facts_per_year": 37500,
+  "foreign_keys_validated": 7,
+  "orphan_facts": 0,
+  "meta_context_mismatches": 0,
+  "unique_origin": 150000,
+  "unique_grain": 150000,
+  "joined_rows": 150000,
+  "analysis_queries_executed": 9,
+  "old_database_count_and_21_sums_unchanged": true,
+  "old_package_control_files_unchanged": true,
+  "existing_databases": [
+    "dw_mef_2022_2024",
+    "dw_mef_2022_2025",
+    "luchito",
+    "postgres"
+  ],
+  "2025_cutoff_note": "PIA contrastado; fecha de corte y cierre de ejecucion no certificados externamente",
+  "completed_at_utc": "2026-10-22T03:47:29.436619+00:00"
+}

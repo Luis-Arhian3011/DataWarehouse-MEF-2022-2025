@@ -1,0 +1,155 @@
+{
+  "dimension_anio": {
+    "key": "anio_key",
+    "fuente": "sufijo anual 2022-2025"
+  },
+  "dimensiones": {
+    "entidad": {
+      "natural_keys": 2907,
+      "source_rows": 8468325,
+      "key_attribute_combinations": 2917,
+      "keys_with_attribute_variants": 10,
+      "max_variants": 2,
+      "keys": [
+        "NIVEL_GOBIERNO",
+        "SECTOR",
+        "PLIEGO",
+        "EJECUTORA",
+        "SEC_EJEC",
+        "DEPARTAMENTO_EJECUTORA",
+        "PROVINCIA_EJECUTORA",
+        "DISTRITO_EJECUTORA"
+      ],
+      "attributes": [
+        "NIVEL_GOBIERNO_NOMBRE",
+        "SECTOR_NOMBRE",
+        "PLIEGO_NOMBRE",
+        "EJECUTORA_NOMBRE",
+        "DEPARTAMENTO_EJECUTORA_NOMBRE",
+        "PROVINCIA_EJECUTORA_NOMBRE",
+        "DISTRITO_EJECUTORA_NOMBRE"
+      ],
+      "key_year_context": null
+    },
+    "intervencion": {
+      "natural_keys": 244342,
+      "source_rows": 8468325,
+      "key_attribute_combinations": 244796,
+      "keys_with_attribute_variants": 454,
+      "max_variants": 2,
+      "keys": [
+        "PROGRAMA_PPTO",
+        "TIPO_ACT_PROY",
+        "PRODUCTO_PROYECTO",
+        "ACTIVIDAD_ACCION_OBRA"
+      ],
+      "attributes": [
+        "PROGRAMA_PPTO_NOMBRE",
+        "TIPO_ACT_PROY_NOMBRE",
+        "PRODUCTO_PROYECTO_NOMBRE",
+        "ACTIVIDAD_ACCION_OBRA_NOMBRE"
+      ],
+      "key_year_context": null
+    },
+    "funcion": {
+      "natural_keys": 388,
+      "source_rows": 8468325,
+      "key_attribute_combinations": 388,
+      "keys_with_attribute_variants": 0,
+      "max_variants": 1,
+      "keys": [
+        "FUNCION",
+        "DIVISION_FUNCIONAL",
+        "GRUPO_FUNCIONAL"
+      ],
+      "attributes": [
+        "FUNCION_NOMBRE",
+        "DIVISION_FUNCIONAL_NOMBRE",
+        "GRUPO_FUNCIONAL_NOMBRE"
+      ],
+      "key_year_context": null
+    },
+    "meta": {
+      "natural_keys": 591790,
+      "source_rows": 8468325,
+      "key_attribute_combinations": 694249,
+      "keys_with_attribute_variants": 72652,
+      "max_variants": 7,
+      "keys": [
+        "NIVEL_GOBIERNO",
+        "SECTOR",
+        "PLIEGO",
+        "EJECUTORA",
+        "SEC_EJEC",
+        "DEPARTAMENTO_EJECUTORA",
+        "PROVINCIA_EJECUTORA",
+        "DISTRITO_EJECUTORA",
+        "PROGRAMA_PPTO",
+        "TIPO_ACT_PROY",
+        "PRODUCTO_PROYECTO",
+        "ACTIVIDAD_ACCION_OBRA",
+        "FUNCION",
+        "DIVISION_FUNCIONAL",
+        "GRUPO_FUNCIONAL",
+        "META",
+        "DEPARTAMENTO_META"
+      ],
+      "attributes": [
+        "META_NOMBRE",
+        "DEPARTAMENTO_META_NOMBRE"
+      ],
+      "key_year_context": "anio se agrega al resolver meta; probar sin anio es una comprobacion mas estricta"
+    },
+    "financiamiento": {
+      "natural_keys": 187,
+      "source_rows": 8468325,
+      "key_attribute_combinations": 189,
+      "keys_with_attribute_variants": 2,
+      "max_variants": 2,
+      "keys": [
+        "FUENTE_FINANCIAMIENTO",
+        "RUBRO",
+        "TIPO_RECURSO"
+      ],
+      "attributes": [
+        "FUENTE_FINANCIAMIENTO_NOMBRE",
+        "RUBRO_NOMBRE",
+        "TIPO_RECURSO_NOMBRE"
+      ],
+      "key_year_context": null
+    },
+    "clasificador_gasto": {
+      "natural_keys": 586,
+      "source_rows": 8468325,
+      "key_attribute_combinations": 592,
+      "keys_with_attribute_variants": 5,
+      "max_variants": 3,
+      "keys": [
+        "CATEGORIA_GASTO",
+        "TIPO_TRANSACCION",
+        "GENERICA",
+        "SUBGENERICA",
+        "SUBGENERICA_DET",
+        "ESPECIFICA",
+        "ESPECIFICA_DET"
+      ],
+      "attributes": [
+        "CATEGORIA_GASTO_NOMBRE",
+        "GENERICA_NOMBRE",
+        "SUBGENERICA_NOMBRE",
+        "SUBGENERICA_DET_NOMBRE",
+        "ESPECIFICA_NOMBRE",
+        "ESPECIFICA_DET_NOMBRE"
+      ],
+      "key_year_context": null
+    }
+  },
+  "meta_discriminador_adicional": "META_NOMBRE",
+  "periodo": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "semilla": "MEF_KIMBALL_2022_2025_V1"
+}

@@ -1,0 +1,2 @@
+# ETL de carga: solo biblioteca estandar de Python 3.11+ y Docker/psql.
+# No requiere paquetes pip adicionales.

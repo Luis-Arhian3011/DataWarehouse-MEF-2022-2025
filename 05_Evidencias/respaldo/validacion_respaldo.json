@@ -1,0 +1,49 @@
+{
+  "estado": "validado_estructura_y_lectura",
+  "incidencia_corregida": true,
+  "control_corregido": "Formato CUSTOM y dbname en encabezado; no se exige entrada DATABASE en TOC.",
+  "archivo": "C:\\DataWarehouse_MEF\\respaldos\\dw_mef_2022_2025_completo_20261022T182048021354Z.dump",
+  "sha256_esperado": "b9177e726595b4621de32a347e9d56fbbab0bf811e79bdff2be2899923c3c138",
+  "sha256_observado": "b9177e726595b4621de32a347e9d56fbbab0bf811e79bdff2be2899923c3c138",
+  "sha256_coincide": true,
+  "bytes": 19354326,
+  "mib": 18.46,
+  "fecha_archivo_lima": "2026-10-22T13:20:50.114144-05:00",
+  "fecha_validacion_utc": "2026-10-22T18:28:50.180925+00:00",
+  "fecha_validacion_lima": "2026-10-22T13:28:50.180925-05:00",
+  "archivo_sin_modificar": true,
+  "pg_restore_list_codigo": 0,
+  "lectura_completa_sin_conexion_codigo": 0,
+  "tablas_definidas": [
+    "dim_anio",
+    "dim_clasificador_gasto",
+    "dim_entidad",
+    "dim_financiamiento",
+    "dim_funcion",
+    "dim_intervencion",
+    "dim_meta",
+    "fact_ejecucion_presupuestaria_anual"
+  ],
+  "tablas_con_datos": [
+    "dim_anio",
+    "dim_clasificador_gasto",
+    "dim_entidad",
+    "dim_financiamiento",
+    "dim_funcion",
+    "dim_intervencion",
+    "dim_meta",
+    "fact_ejecucion_presupuestaria_anual"
+  ],
+  "claves_foraneas_definidas": [
+    "fact_ejecucion_presupuestaria_anual_anio_key_fkey",
+    "fact_ejecucion_presupuestaria_anual_clasificador_gasto_key_fkey",
+    "fact_ejecucion_presupuestaria_anual_entidad_key_fkey",
+    "fact_ejecucion_presupuestaria_anual_financiamiento_key_fkey",
+    "fact_ejecucion_presupuestaria_anual_funcion_key_fkey",
+    "fact_ejecucion_presupuestaria_anual_intervencion_key_fkey",
+    "fact_ejecucion_presupuestaria_anual_meta_key_fkey"
+  ],
+  "restauracion_ejecutada": false,
+  "limitacion": "La validación de estructura, lectura e integridad del archivo no sustituye una prueba de restauración completa.",
+  "puede_continuar_preparacion_entrega_final": true
+}

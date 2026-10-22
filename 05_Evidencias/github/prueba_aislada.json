@@ -1,0 +1,49 @@
+{
+  "estado": "correcto",
+  "fecha_utc": "2026-10-22T20:26:32.833258+00:00",
+  "alcance": "Restauracion completa y pruebas locales en Docker aislado; no se probo otra computadora.",
+  "restauracion_completa_ejecutada": true,
+  "base": "dw_mef_2022_2025",
+  "usuario": "mef_admin",
+  "hechos": 150000,
+  "dimensiones": 7,
+  "claves_foraneas": 7,
+  "huerfanos": 0,
+  "contextos_meta_incorrectos": 0,
+  "totales_anuales_conciliados": 28,
+  "pruebas_automatizadas": 117,
+  "scripts": [
+    {
+      "script": "verificar_dashboard.py",
+      "codigo": 0
+    },
+    {
+      "script": "verificar_pulido.py",
+      "codigo": 0
+    },
+    {
+      "script": "verificar_visual.py",
+      "codigo": 0
+    },
+    {
+      "script": "verificar_visual_pulido.py",
+      "codigo": 0
+    }
+  ],
+  "consultas_analiticas_ejecutadas": 9,
+  "original_conteos_y_28_sumas_sin_cambios": true,
+  "contenedor_original": "postgres-db",
+  "proyecto_compose": "mef2025-prueba-20261022a",
+  "contenedor": "mef2025-prueba-20261022a-postgres-1",
+  "volumen": "mef2025-prueba-20261022a_pgdata",
+  "red": "mef2025-prueba-20261022a_default",
+  "puerto_postgres": 55432,
+  "puerto_dashboard": 8503,
+  "servidor_pid": 22256,
+  "recursos_conservados_pendientes_autorizacion_limpieza": false,
+  "limpieza_autorizada": true,
+  "limpieza_completada": true,
+  "servidor_prueba_detenido": true,
+  "carpeta_temporal_retirada": true,
+  "fecha_limpieza_utc": "2026-10-22T20:34:51.381866+00:00"
+}

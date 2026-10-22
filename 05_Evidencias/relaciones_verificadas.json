@@ -1,0 +1,65 @@
+[
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_anio_key_fkey",
+    "origen": "anio_key",
+    "destino": "dim_anio",
+    "referencia": "anio_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  },
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_clasificador_gasto_key_fkey",
+    "origen": "clasificador_gasto_key",
+    "destino": "dim_clasificador_gasto",
+    "referencia": "clasificador_gasto_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  },
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_entidad_key_fkey",
+    "origen": "entidad_key",
+    "destino": "dim_entidad",
+    "referencia": "entidad_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  },
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_financiamiento_key_fkey",
+    "origen": "financiamiento_key",
+    "destino": "dim_financiamiento",
+    "referencia": "financiamiento_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  },
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_funcion_key_fkey",
+    "origen": "funcion_key",
+    "destino": "dim_funcion",
+    "referencia": "funcion_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  },
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_intervencion_key_fkey",
+    "origen": "intervencion_key",
+    "destino": "dim_intervencion",
+    "referencia": "intervencion_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  },
+  {
+    "conname": "fact_ejecucion_presupuestaria_anual_meta_key_fkey",
+    "origen": "meta_key",
+    "destino": "dim_meta",
+    "referencia": "meta_key",
+    "esquema_destino": "mef",
+    "validada": true,
+    "referencia_pk": true
+  }
+]

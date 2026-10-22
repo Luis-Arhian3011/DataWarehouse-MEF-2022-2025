@@ -1,0 +1,27 @@
+{
+  "capturas": [
+    "tabla_temporal.png",
+    "tabla_variaciones.png",
+    "esquema_estrella.png",
+    "metodologia_movil.png"
+  ],
+  "resoluciones": [
+    {
+      "ancho": 1440,
+      "alto": 1100,
+      "sin_desborde": true
+    },
+    {
+      "ancho": 1024,
+      "alto": 900,
+      "sin_desborde": true
+    },
+    {
+      "ancho": 390,
+      "alto": 844,
+      "sin_desborde": true
+    }
+  ],
+  "csv_descargado_identico": true,
+  "estado": "correcto"
+}

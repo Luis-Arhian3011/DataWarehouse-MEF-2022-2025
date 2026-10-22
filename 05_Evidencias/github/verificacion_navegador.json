@@ -1,0 +1,15 @@
+{
+  "http_salud": 200,
+  "vistas": [
+    "Análisis temporal",
+    "Niveles de gobierno",
+    "Análisis por entidad",
+    "Distribución del gasto",
+    "Metodología y calidad"
+  ],
+  "errores_navegador": [],
+  "csv_descargado": "mef_muestra_cobertura.csv",
+  "csv_bytes": 685,
+  "movil_desborde_horizontal": false,
+  "estado": "correcto"
+}
