@@ -1,0 +1,382 @@
+{
+  "status": "restauracion_completa_validada",
+  "source": "dw_mef_2022_2025_v2",
+  "target": "dw_mef_v2_prueba_restauracion",
+  "container": "postgres-db",
+  "restore_seconds": 7.288,
+  "total_seconds": 65.62,
+  "finished_utc": "2026-10-28T17:23:05.764013+00:00",
+  "finished_lima": "2026-10-28T12:23:05.764013-05:00",
+  "table_counts": {
+    "auditoria.serie_seleccionada": 12500,
+    "mef.dim_anio": 4,
+    "mef.dim_clasificador_gasto": 476,
+    "mef.dim_entidad": 2898,
+    "mef.dim_financiamiento": 114,
+    "mef.dim_funcion": 356,
+    "mef.dim_intervencion": 18654,
+    "mef.dim_meta": 121305,
+    "mef.dim_meta_detallada": 12477,
+    "mef.dim_periodo_mensual": 48,
+    "mef.fact_devengado_mensual": 150000,
+    "mef.fact_ejecucion_presupuestaria_anual": 150000
+  },
+  "total_rows": 468832,
+  "full_table_hashes_equal": true,
+  "structure_equal": true,
+  "sequence_states_equal": true,
+  "source_unchanged": true,
+  "original_preserved": true,
+  "backup_sha256": "3da3bafb255c3fdf69884417c72f9dccfc3647422b21a8aa05af9c5682499b96",
+  "temporary_database_kept": true,
+  "container_resources_created": false,
+  "protected_hashes_verified": 63,
+  "validation": {
+    "valid": true,
+    "annual_facts": 150000,
+    "monthly_facts": 150000,
+    "complete_series": 12500,
+    "dimensions": 9,
+    "tables": 12,
+    "foreign_keys": [
+      {
+        "table": "auditoria.serie_seleccionada",
+        "name": "serie_seleccionada_hecho_anual_key_anio_key_entidad_key_in_fkey",
+        "columns": [
+          "hecho_anual_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key",
+          "meta_key",
+          "financiamiento_key",
+          "clasificador_gasto_key"
+        ],
+        "references": "mef.fact_ejecucion_presupuestaria_anual",
+        "reference_columns": [
+          "hecho_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key",
+          "meta_key",
+          "financiamiento_key",
+          "clasificador_gasto_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "auditoria.serie_seleccionada",
+        "name": "serie_seleccionada_meta_detalle_key_anio_key_entidad_key_i_fkey",
+        "columns": [
+          "meta_detalle_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key"
+        ],
+        "references": "mef.dim_meta_detallada",
+        "reference_columns": [
+          "meta_detalle_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.dim_meta_detallada",
+        "name": "dim_meta_detallada_anio_key_fkey",
+        "columns": [
+          "anio_key"
+        ],
+        "references": "mef.dim_anio",
+        "reference_columns": [
+          "anio_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.dim_meta_detallada",
+        "name": "dim_meta_detallada_entidad_key_fkey",
+        "columns": [
+          "entidad_key"
+        ],
+        "references": "mef.dim_entidad",
+        "reference_columns": [
+          "entidad_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.dim_meta_detallada",
+        "name": "dim_meta_detallada_funcion_key_fkey",
+        "columns": [
+          "funcion_key"
+        ],
+        "references": "mef.dim_funcion",
+        "reference_columns": [
+          "funcion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.dim_meta_detallada",
+        "name": "dim_meta_detallada_intervencion_key_fkey",
+        "columns": [
+          "intervencion_key"
+        ],
+        "references": "mef.dim_intervencion",
+        "reference_columns": [
+          "intervencion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.dim_periodo_mensual",
+        "name": "dim_periodo_mensual_anio_key_fkey",
+        "columns": [
+          "anio_key"
+        ],
+        "references": "mef.dim_anio",
+        "reference_columns": [
+          "anio_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_clasificador_gasto_key_fkey",
+        "columns": [
+          "clasificador_gasto_key"
+        ],
+        "references": "mef.dim_clasificador_gasto",
+        "reference_columns": [
+          "clasificador_gasto_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_entidad_key_fkey",
+        "columns": [
+          "entidad_key"
+        ],
+        "references": "mef.dim_entidad",
+        "reference_columns": [
+          "entidad_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_financiamiento_key_fkey",
+        "columns": [
+          "financiamiento_key"
+        ],
+        "references": "mef.dim_financiamiento",
+        "reference_columns": [
+          "financiamiento_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_funcion_key_fkey",
+        "columns": [
+          "funcion_key"
+        ],
+        "references": "mef.dim_funcion",
+        "reference_columns": [
+          "funcion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_hecho_anual_key_anio_key_entidad_ke_fkey",
+        "columns": [
+          "hecho_anual_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key",
+          "meta_detalle_key",
+          "financiamiento_key",
+          "clasificador_gasto_key"
+        ],
+        "references": "auditoria.serie_seleccionada",
+        "reference_columns": [
+          "hecho_anual_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key",
+          "meta_detalle_key",
+          "financiamiento_key",
+          "clasificador_gasto_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_intervencion_key_fkey",
+        "columns": [
+          "intervencion_key"
+        ],
+        "references": "mef.dim_intervencion",
+        "reference_columns": [
+          "intervencion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_meta_detalle_key_anio_key_entidad_k_fkey",
+        "columns": [
+          "meta_detalle_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key"
+        ],
+        "references": "mef.dim_meta_detallada",
+        "reference_columns": [
+          "meta_detalle_key",
+          "anio_key",
+          "entidad_key",
+          "intervencion_key",
+          "funcion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_devengado_mensual",
+        "name": "fact_devengado_mensual_periodo_key_anio_key_fkey",
+        "columns": [
+          "periodo_key",
+          "anio_key"
+        ],
+        "references": "mef.dim_periodo_mensual",
+        "reference_columns": [
+          "periodo_key",
+          "anio_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_anio_key_fkey",
+        "columns": [
+          "anio_key"
+        ],
+        "references": "mef.dim_anio",
+        "reference_columns": [
+          "anio_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_clasificador_gasto_key_fkey",
+        "columns": [
+          "clasificador_gasto_key"
+        ],
+        "references": "mef.dim_clasificador_gasto",
+        "reference_columns": [
+          "clasificador_gasto_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_entidad_key_fkey",
+        "columns": [
+          "entidad_key"
+        ],
+        "references": "mef.dim_entidad",
+        "reference_columns": [
+          "entidad_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_financiamiento_key_fkey",
+        "columns": [
+          "financiamiento_key"
+        ],
+        "references": "mef.dim_financiamiento",
+        "reference_columns": [
+          "financiamiento_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_funcion_key_fkey",
+        "columns": [
+          "funcion_key"
+        ],
+        "references": "mef.dim_funcion",
+        "reference_columns": [
+          "funcion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_intervencion_key_fkey",
+        "columns": [
+          "intervencion_key"
+        ],
+        "references": "mef.dim_intervencion",
+        "reference_columns": [
+          "intervencion_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      },
+      {
+        "table": "mef.fact_ejecucion_presupuestaria_anual",
+        "name": "fact_ejecucion_presupuestaria_anual_meta_key_fkey",
+        "columns": [
+          "meta_key"
+        ],
+        "references": "mef.dim_meta",
+        "reference_columns": [
+          "meta_key"
+        ],
+        "validated": true,
+        "orphans": 0
+      }
+    ],
+    "orphans": 0,
+    "annual_controls": 28,
+    "monthly_controls": 48,
+    "negative_months": 324,
+    "zero_months": 124976,
+    "database_bytes": 254270823
+  }
+}

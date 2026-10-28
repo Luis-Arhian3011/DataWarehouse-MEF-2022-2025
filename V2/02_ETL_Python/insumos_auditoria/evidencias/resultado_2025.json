@@ -1,0 +1,646 @@
+{
+  "year": 2025,
+  "source": "[ORIGEN_LOCAL]\\nuevas fuentes\\devengado_mensual\\2025-Gasto-Devengado-Mensual.csv",
+  "bytes": 2793630318,
+  "mtime_ns": 1792907210077797300,
+  "sha256": "c7437562c20fdbaf6d80aeeb1e75d844e74e31dad0006f6f804765651ff38f92",
+  "parquet_bytes": 111687473,
+  "quality": {
+    "filas": 2807170,
+    "anio_incorrecto": 0,
+    "gobierno_incorrecto": 0,
+    "tipo_no_mapeable": 0,
+    "MONTO_PIA_invalidos": 0,
+    "MONTO_PIA_negativos": 0,
+    "MONTO_PIA_suma": "251801045185.00",
+    "MONTO_PIM_invalidos": 0,
+    "MONTO_PIM_negativos": 5,
+    "MONTO_PIM_suma": "272450859407.00",
+    "MONTO_CERTIFICADO_ANUAL_invalidos": 0,
+    "MONTO_CERTIFICADO_ANUAL_negativos": 6,
+    "MONTO_CERTIFICADO_ANUAL_suma": "263078761391.80",
+    "MONTO_COMPROMETIDO_ANUAL_invalidos": 0,
+    "MONTO_COMPROMETIDO_ANUAL_negativos": 5,
+    "MONTO_COMPROMETIDO_ANUAL_suma": "258771064633.88",
+    "MONTO_DEVENGADO_ENERO_invalidos": 0,
+    "MONTO_DEVENGADO_ENERO_negativos": 253,
+    "MONTO_DEVENGADO_ENERO_suma": "16835113842.62",
+    "MONTO_DEVENGADO_FEBRERO_invalidos": 0,
+    "MONTO_DEVENGADO_FEBRERO_negativos": 3300,
+    "MONTO_DEVENGADO_FEBRERO_suma": "21907083519.65",
+    "MONTO_DEVENGADO_MARZO_invalidos": 0,
+    "MONTO_DEVENGADO_MARZO_negativos": 3228,
+    "MONTO_DEVENGADO_MARZO_suma": "17848446335.70",
+    "MONTO_DEVENGADO_ABRIL_invalidos": 0,
+    "MONTO_DEVENGADO_ABRIL_negativos": 4068,
+    "MONTO_DEVENGADO_ABRIL_suma": "17323461642.53",
+    "MONTO_DEVENGADO_MAYO_invalidos": 0,
+    "MONTO_DEVENGADO_MAYO_negativos": 4851,
+    "MONTO_DEVENGADO_MAYO_suma": "19059256742.81",
+    "MONTO_DEVENGADO_JUNIO_invalidos": 0,
+    "MONTO_DEVENGADO_JUNIO_negativos": 6123,
+    "MONTO_DEVENGADO_JUNIO_suma": "20553648217.10",
+    "MONTO_DEVENGADO_JULIO_invalidos": 0,
+    "MONTO_DEVENGADO_JULIO_negativos": 6091,
+    "MONTO_DEVENGADO_JULIO_suma": "21464948310.86",
+    "MONTO_DEVENGADO_AGOSTO_invalidos": 0,
+    "MONTO_DEVENGADO_AGOSTO_negativos": 6953,
+    "MONTO_DEVENGADO_AGOSTO_suma": "23718101029.81",
+    "MONTO_DEVENGADO_SEPTIEMBRE_invalidos": 0,
+    "MONTO_DEVENGADO_SEPTIEMBRE_negativos": 6535,
+    "MONTO_DEVENGADO_SEPTIEMBRE_suma": "21162887768.59",
+    "MONTO_DEVENGADO_OCTUBRE_invalidos": 0,
+    "MONTO_DEVENGADO_OCTUBRE_negativos": 7353,
+    "MONTO_DEVENGADO_OCTUBRE_suma": "19635180470.43",
+    "MONTO_DEVENGADO_NOVIEMBRE_invalidos": 0,
+    "MONTO_DEVENGADO_NOVIEMBRE_negativos": 8598,
+    "MONTO_DEVENGADO_NOVIEMBRE_suma": "19692526467.13",
+    "MONTO_DEVENGADO_DICIEMBRE_invalidos": 0,
+    "MONTO_DEVENGADO_DICIEMBRE_negativos": 34089,
+    "MONTO_DEVENGADO_DICIEMBRE_suma": "34474640191.12",
+    "MONTO_DEVENGADO_ANUAL_invalidos": 0,
+    "MONTO_DEVENGADO_ANUAL_negativos": 33,
+    "MONTO_DEVENGADO_ANUAL_suma": "253675294538.35",
+    "MONTO_GIRADO_ANUAL_invalidos": 0,
+    "MONTO_GIRADO_ANUAL_negativos": 12,
+    "MONTO_GIRADO_ANUAL_suma": "253318778332.41",
+    "ANO_EJE_ausente": 0,
+    "NIVEL_GOBIERNO_ausente": 0,
+    "EJECUTORA_ausente": 0,
+    "SEC_EJEC_ausente": 0,
+    "DEPARTAMENTO_EJECUTORA_ausente": 0,
+    "PROVINCIA_EJECUTORA_ausente": 0,
+    "DISTRITO_EJECUTORA_ausente": 0,
+    "PROGRAMA_PPTO_ausente": 0,
+    "TIPO_ACT_PROY_ausente": 0,
+    "PRODUCTO_PROYECTO_ausente": 0,
+    "ACTIVIDAD_ACCION_OBRA_ausente": 0,
+    "FUNCION_ausente": 0,
+    "DIVISION_FUNCIONAL_ausente": 0,
+    "GRUPO_FUNCIONAL_ausente": 0,
+    "META_ausente": 0,
+    "DEPARTAMENTO_META_ausente": 0,
+    "FUENTE_FINANCIAMIENTO_ausente": 0,
+    "RUBRO_ausente": 0,
+    "TIPO_RECURSO_ausente": 0,
+    "CATEGORIA_GASTO_ausente": 0,
+    "TIPO_TRANSACCION_ausente": 0,
+    "GENERICA_ausente": 0,
+    "SUBGENERICA_ausente": 0,
+    "SUBGENERICA_DET_ausente": 0,
+    "ESPECIFICA_ausente": 0,
+    "ESPECIFICA_DET_ausente": 0,
+    "SEC_FUNC_ausente": 0,
+    "FINALIDAD_ausente": 0,
+    "SECTOR_ausente": 1813214,
+    "PLIEGO_ausente": 1813214,
+    "META_NOMBRE_ausente": 175,
+    "filas_validas_formato": 2807170,
+    "filas_conciliables": 2807170,
+    "diferencias_meses": 0,
+    "suma_12_meses": "253675294538.35",
+    "filtro_valido": "coalesce(regexp_full_match(trim(\"MONTO_PIA\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_PIA\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_PIM\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_PIM\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_CERTIFICADO_ANUAL\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_CERTIFICADO_ANUAL\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_COMPROMETIDO_ANUAL\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_COMPROMETIDO_ANUAL\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_ENERO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_ENERO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_FEBRERO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_FEBRERO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_MARZO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_MARZO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_ABRIL\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_ABRIL\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_MAYO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_MAYO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_JUNIO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_JUNIO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_JULIO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_JULIO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_AGOSTO\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_AGOSTO\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_SEPTIEMBRE\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_SEPTIEMBRE\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_OCTUBRE\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_OCTUBRE\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_NOVIEMBRE\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_NOVIEMBRE\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_DICIEMBRE\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_DICIEMBRE\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_DEVENGADO_ANUAL\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_DEVENGADO_ANUAL\") AS DECIMAL(20,2)) IS NOT NULL AND coalesce(regexp_full_match(trim(\"MONTO_GIRADO_ANUAL\"),'^[+-]?[0-9]+([.][0-9]{1,2})?$'),false) AND TRY_CAST(trim(\"MONTO_GIRADO_ANUAL\") AS DECIMAL(20,2)) IS NOT NULL AND \"ANO_EJE\" IS NOT NULL AND trim(\"ANO_EJE\")<>'' AND \"NIVEL_GOBIERNO\" IS NOT NULL AND trim(\"NIVEL_GOBIERNO\")<>'' AND \"EJECUTORA\" IS NOT NULL AND trim(\"EJECUTORA\")<>'' AND \"SEC_EJEC\" IS NOT NULL AND trim(\"SEC_EJEC\")<>'' AND \"DEPARTAMENTO_EJECUTORA\" IS NOT NULL AND trim(\"DEPARTAMENTO_EJECUTORA\")<>'' AND \"PROVINCIA_EJECUTORA\" IS NOT NULL AND trim(\"PROVINCIA_EJECUTORA\")<>'' AND \"DISTRITO_EJECUTORA\" IS NOT NULL AND trim(\"DISTRITO_EJECUTORA\")<>'' AND \"PROGRAMA_PPTO\" IS NOT NULL AND trim(\"PROGRAMA_PPTO\")<>'' AND \"TIPO_ACT_PROY\" IS NOT NULL AND trim(\"TIPO_ACT_PROY\")<>'' AND \"PRODUCTO_PROYECTO\" IS NOT NULL AND trim(\"PRODUCTO_PROYECTO\")<>'' AND \"ACTIVIDAD_ACCION_OBRA\" IS NOT NULL AND trim(\"ACTIVIDAD_ACCION_OBRA\")<>'' AND \"FUNCION\" IS NOT NULL AND trim(\"FUNCION\")<>'' AND \"DIVISION_FUNCIONAL\" IS NOT NULL AND trim(\"DIVISION_FUNCIONAL\")<>'' AND \"GRUPO_FUNCIONAL\" IS NOT NULL AND trim(\"GRUPO_FUNCIONAL\")<>'' AND \"META\" IS NOT NULL AND trim(\"META\")<>'' AND \"DEPARTAMENTO_META\" IS NOT NULL AND trim(\"DEPARTAMENTO_META\")<>'' AND \"FUENTE_FINANCIAMIENTO\" IS NOT NULL AND trim(\"FUENTE_FINANCIAMIENTO\")<>'' AND \"RUBRO\" IS NOT NULL AND trim(\"RUBRO\")<>'' AND \"TIPO_RECURSO\" IS NOT NULL AND trim(\"TIPO_RECURSO\")<>'' AND \"CATEGORIA_GASTO\" IS NOT NULL AND trim(\"CATEGORIA_GASTO\")<>'' AND \"TIPO_TRANSACCION\" IS NOT NULL AND trim(\"TIPO_TRANSACCION\")<>'' AND \"GENERICA\" IS NOT NULL AND trim(\"GENERICA\")<>'' AND \"SUBGENERICA\" IS NOT NULL AND trim(\"SUBGENERICA\")<>'' AND \"SUBGENERICA_DET\" IS NOT NULL AND trim(\"SUBGENERICA_DET\")<>'' AND \"ESPECIFICA\" IS NOT NULL AND trim(\"ESPECIFICA\")<>'' AND \"ESPECIFICA_DET\" IS NOT NULL AND trim(\"ESPECIFICA_DET\")<>'' AND \"SEC_FUNC\" IS NOT NULL AND trim(\"SEC_FUNC\")<>'' AND \"FINALIDAD\" IS NOT NULL AND trim(\"FINALIDAD\")<>'' AND trim(\"ANO_EJE\")='2025' AND trim(\"NIVEL_GOBIERNO\") IN ('E','R','M') AND trim(\"TIPO_ACT_PROY\") IN ('ACTIVIDAD','PROYECTO') AND (trim(\"NIVEL_GOBIERNO\")='M' OR (trim(\"SECTOR\")<>'' AND trim(\"PLIEGO\")<>''))",
+    "por_gobierno": [
+      {
+        "nivel": "E",
+        "filas": 460059,
+        "entidades": 391,
+        "sector_pliego_ausente": 0
+      },
+      {
+        "nivel": "M",
+        "filas": 1813214,
+        "entidades": 1918,
+        "sector_pliego_ausente": 1813214
+      },
+      {
+        "nivel": "R",
+        "filas": 533897,
+        "entidades": 564,
+        "sector_pliego_ausente": 0
+      }
+    ]
+  },
+  "raw_duplicates": {
+    "grupos": 2807160,
+    "filas_extra": 10,
+    "grupos_repetidos": 10
+  },
+  "grain": {
+    "grupos": 2807028,
+    "filas_extra": 142,
+    "filas_en_grupos_repetidos": 284,
+    "grupos_repetidos": 142,
+    "multiplicidad_maxima": 2
+  },
+  "legacy_projection": {
+    "grupos": 2807026,
+    "filas_extra": 144,
+    "filas_en_grupos_repetidos": 288,
+    "grupos_repetidos": 144,
+    "multiplicidad_maxima": 2
+  },
+  "dependencies": {
+    "rubro_fuente": {
+      "claves": 9,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "RUBRO"
+      ],
+      "attrs": [
+        "FUENTE_FINANCIAMIENTO"
+      ]
+    },
+    "sec_func_contexto": {
+      "claves": 273734,
+      "claves_con_variantes": 1336,
+      "max_variantes": 6,
+      "keys": [
+        "ANO_EJE",
+        "NIVEL_GOBIERNO",
+        "SEC_EJEC",
+        "SEC_FUNC"
+      ],
+      "attrs": [
+        "META",
+        "FINALIDAD",
+        "DEPARTAMENTO_META",
+        "PROGRAMA_PPTO",
+        "TIPO_ACT_PROY",
+        "PRODUCTO_PROYECTO",
+        "ACTIVIDAD_ACCION_OBRA",
+        "FUNCION",
+        "DIVISION_FUNCIONAL",
+        "GRUPO_FUNCIONAL"
+      ],
+      "ejemplos": [
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "R",
+          "\"trim\"(SEC_EJEC)": "936",
+          "\"trim\"(SEC_FUNC)": "49",
+          "filas": 18,
+          "variantes": 2
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "R",
+          "\"trim\"(SEC_EJEC)": "938",
+          "\"trim\"(SEC_FUNC)": "1",
+          "filas": 16,
+          "variantes": 2
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "R",
+          "\"trim\"(SEC_EJEC)": "938",
+          "\"trim\"(SEC_FUNC)": "8",
+          "filas": 4,
+          "variantes": 2
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "R",
+          "\"trim\"(SEC_EJEC)": "938",
+          "\"trim\"(SEC_FUNC)": "9",
+          "filas": 4,
+          "variantes": 2
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "R",
+          "\"trim\"(SEC_EJEC)": "938",
+          "\"trim\"(SEC_FUNC)": "6",
+          "filas": 4,
+          "variantes": 2
+        }
+      ]
+    },
+    "sec_func_finalidad": {
+      "claves": 275063,
+      "claves_con_variantes": 7,
+      "max_variantes": 6,
+      "keys": [
+        "ANO_EJE",
+        "NIVEL_GOBIERNO",
+        "SEC_EJEC",
+        "SEC_FUNC",
+        "FINALIDAD"
+      ],
+      "attrs": [
+        "META",
+        "DEPARTAMENTO_META",
+        "PROGRAMA_PPTO",
+        "TIPO_ACT_PROY",
+        "PRODUCTO_PROYECTO",
+        "ACTIVIDAD_ACCION_OBRA",
+        "FUNCION",
+        "DIVISION_FUNCIONAL",
+        "GRUPO_FUNCIONAL"
+      ],
+      "ejemplos": [
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "E",
+          "\"trim\"(SEC_EJEC)": "469",
+          "\"trim\"(SEC_FUNC)": "0",
+          "\"trim\"(FINALIDAD)": "99999",
+          "filas": 3,
+          "variantes": 2
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "E",
+          "\"trim\"(SEC_EJEC)": "472",
+          "\"trim\"(SEC_FUNC)": "0",
+          "\"trim\"(FINALIDAD)": "99999",
+          "filas": 29,
+          "variantes": 4
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "E",
+          "\"trim\"(SEC_EJEC)": "1122",
+          "\"trim\"(SEC_FUNC)": "0",
+          "\"trim\"(FINALIDAD)": "99999",
+          "filas": 17,
+          "variantes": 3
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "E",
+          "\"trim\"(SEC_EJEC)": "9",
+          "\"trim\"(SEC_FUNC)": "0",
+          "\"trim\"(FINALIDAD)": "99999",
+          "filas": 7,
+          "variantes": 2
+        },
+        {
+          "\"trim\"(ANO_EJE)": "2025",
+          "\"trim\"(NIVEL_GOBIERNO)": "E",
+          "\"trim\"(SEC_EJEC)": "468",
+          "\"trim\"(SEC_FUNC)": "0",
+          "\"trim\"(FINALIDAD)": "99999",
+          "filas": 3,
+          "variantes": 3
+        }
+      ]
+    },
+    "entidad": {
+      "claves": 2873,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "NIVEL_GOBIERNO",
+        "SECTOR",
+        "PLIEGO",
+        "EJECUTORA",
+        "SEC_EJEC",
+        "DEPARTAMENTO_EJECUTORA",
+        "PROVINCIA_EJECUTORA",
+        "DISTRITO_EJECUTORA"
+      ],
+      "attrs": [
+        "NIVEL_GOBIERNO_NOMBRE",
+        "SECTOR_NOMBRE",
+        "PLIEGO_NOMBRE",
+        "EJECUTORA_NOMBRE",
+        "DEPARTAMENTO_EJECUTORA_NOMBRE",
+        "PROVINCIA_EJECUTORA_NOMBRE",
+        "DISTRITO_EJECUTORA_NOMBRE"
+      ]
+    },
+    "intervencion": {
+      "claves": 85083,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "PROGRAMA_PPTO",
+        "TIPO_ACT_PROY",
+        "PRODUCTO_PROYECTO",
+        "ACTIVIDAD_ACCION_OBRA"
+      ],
+      "attrs": [
+        "PROGRAMA_PPTO_NOMBRE",
+        "PRODUCTO_PROYECTO_NOMBRE",
+        "ACTIVIDAD_ACCION_OBRA_NOMBRE"
+      ]
+    },
+    "funcion": {
+      "claves": 375,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "FUNCION",
+        "DIVISION_FUNCIONAL",
+        "GRUPO_FUNCIONAL"
+      ],
+      "attrs": [
+        "FUNCION_NOMBRE",
+        "DIVISION_FUNCIONAL_NOMBRE",
+        "GRUPO_FUNCIONAL_NOMBRE"
+      ]
+    },
+    "financiamiento": {
+      "claves": 158,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "FUENTE_FINANCIAMIENTO",
+        "RUBRO",
+        "TIPO_RECURSO"
+      ],
+      "attrs": [
+        "FUENTE_FINANCIAMIENTO_NOMBRE",
+        "RUBRO_NOMBRE",
+        "TIPO_RECURSO_NOMBRE"
+      ]
+    },
+    "clasificador": {
+      "claves": 538,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "CATEGORIA_GASTO",
+        "TIPO_TRANSACCION",
+        "GENERICA",
+        "SUBGENERICA",
+        "SUBGENERICA_DET",
+        "ESPECIFICA",
+        "ESPECIFICA_DET"
+      ],
+      "attrs": [
+        "CATEGORIA_GASTO_NOMBRE",
+        "TIPO_TRANSACCION_NOMBRE",
+        "GENERICA_NOMBRE",
+        "SUBGENERICA_NOMBRE",
+        "SUBGENERICA_DET_NOMBRE",
+        "ESPECIFICA_NOMBRE",
+        "ESPECIFICA_DET_NOMBRE"
+      ]
+    },
+    "meta_nombre": {
+      "claves": 275079,
+      "claves_con_variantes": 0,
+      "max_variantes": 1,
+      "keys": [
+        "ANO_EJE",
+        "NIVEL_GOBIERNO",
+        "SECTOR",
+        "PLIEGO",
+        "EJECUTORA",
+        "SEC_EJEC",
+        "DEPARTAMENTO_EJECUTORA",
+        "PROVINCIA_EJECUTORA",
+        "DISTRITO_EJECUTORA",
+        "PROGRAMA_PPTO",
+        "TIPO_ACT_PROY",
+        "PRODUCTO_PROYECTO",
+        "ACTIVIDAD_ACCION_OBRA",
+        "FUNCION",
+        "DIVISION_FUNCIONAL",
+        "GRUPO_FUNCIONAL",
+        "SEC_FUNC",
+        "FINALIDAD",
+        "META",
+        "DEPARTAMENTO_META"
+      ],
+      "attrs": [
+        "META_NOMBRE"
+      ]
+    }
+  },
+  "unpivot_control": {
+    "hechos_virtuales": 33686040,
+    "devengado_total": "253675294538.35",
+    "importes_negativos": 91442
+  },
+  "eligibility": {
+    "validas_activas": 2629070,
+    "entidades": 2873,
+    "devengado_anual_cero": 1176552
+  },
+  "correspondence_legacy": {
+    "series_elegibles_unicas": 2628808,
+    "coverage": {
+      "filas": 2628808,
+      "series_enlazadas": 37288
+    },
+    "conciliacion_muestra_anual": {
+      "padres_anuales_enlazados": 37288,
+      "series_mensuales_enlazadas": 37288,
+      "padres_con_varias_subseries": 0,
+      "padres_conciliados_seis_medidas": 37246,
+      "padres_conciliados_una_serie": 37246,
+      "entidades_cohorte_una_serie": 2862,
+      "pia_padres_diferentes": 0,
+      "pim_padres_diferentes": 0,
+      "certificado_padres_diferentes": 0,
+      "comprometido_anual_padres_diferentes": 0,
+      "devengado_padres_diferentes": 2,
+      "girado_padres_diferentes": 40
+    },
+    "estratos_cohorte": [
+      {
+        "nivel": "E",
+        "padres_conciliados_una_serie": 5988,
+        "entidades": 390
+      },
+      {
+        "nivel": "M",
+        "padres_conciliados_una_serie": 24135,
+        "entidades": 1908
+      },
+      {
+        "nivel": "R",
+        "padres_conciliados_una_serie": 7123,
+        "entidades": 564
+      }
+    ],
+    "ejemplos_discrepancias": [
+      {
+        "hecho_key": "116451",
+        "entidad_key": "1856",
+        "nivel": "M",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "0.00",
+        "a_pim": "0.00",
+        "s_certificado": "0.00",
+        "a_certificado": "0.00",
+        "s_comprometido_anual": "0.00",
+        "a_comprometido_anual": "0.00",
+        "s_devengado": "128447.84",
+        "a_devengado": "128447.84",
+        "s_girado": "128446.96",
+        "a_girado": "128447.84"
+      },
+      {
+        "hecho_key": "123011",
+        "entidad_key": "280",
+        "nivel": "E",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "90.00",
+        "a_pim": "90.00",
+        "s_certificado": "90.00",
+        "a_certificado": "90.00",
+        "s_comprometido_anual": "90.00",
+        "a_comprometido_anual": "90.00",
+        "s_devengado": "90.00",
+        "a_devengado": "90.00",
+        "s_girado": "0.00",
+        "a_girado": "90.00"
+      },
+      {
+        "hecho_key": "128439",
+        "entidad_key": "1384",
+        "nivel": "M",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "0.00",
+        "a_pim": "0.00",
+        "s_certificado": "0.00",
+        "a_certificado": "0.00",
+        "s_comprometido_anual": "0.00",
+        "a_comprometido_anual": "0.00",
+        "s_devengado": "95400.00",
+        "a_devengado": "95400.00",
+        "s_girado": "63000.00",
+        "a_girado": "71100.00"
+      },
+      {
+        "hecho_key": "145290",
+        "entidad_key": "280",
+        "nivel": "E",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "162.00",
+        "a_pim": "162.00",
+        "s_certificado": "162.00",
+        "a_certificado": "162.00",
+        "s_comprometido_anual": "162.00",
+        "a_comprometido_anual": "162.00",
+        "s_devengado": "162.00",
+        "a_devengado": "162.00",
+        "s_girado": "143.00",
+        "a_girado": "162.00"
+      },
+      {
+        "hecho_key": "131667",
+        "entidad_key": "321",
+        "nivel": "E",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "56023.00",
+        "a_pim": "56023.00",
+        "s_certificado": "56023.00",
+        "a_certificado": "56023.00",
+        "s_comprometido_anual": "56022.17",
+        "a_comprometido_anual": "56022.17",
+        "s_devengado": "56022.17",
+        "a_devengado": "56022.17",
+        "s_girado": "54701.34",
+        "a_girado": "55605.76"
+      },
+      {
+        "hecho_key": "132318",
+        "entidad_key": "280",
+        "nivel": "E",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "1225525.00",
+        "a_pim": "1225525.00",
+        "s_certificado": "1225524.12",
+        "a_certificado": "1225524.12",
+        "s_comprometido_anual": "1225524.12",
+        "a_comprometido_anual": "1225524.12",
+        "s_devengado": "1225524.12",
+        "a_devengado": "1225524.12",
+        "s_girado": "1221704.12",
+        "a_girado": "1225524.12"
+      },
+      {
+        "hecho_key": "132546",
+        "entidad_key": "490",
+        "nivel": "M",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "0.00",
+        "a_pim": "0.00",
+        "s_certificado": "0.00",
+        "a_certificado": "0.00",
+        "s_comprometido_anual": "0.00",
+        "a_comprometido_anual": "0.00",
+        "s_devengado": "165330.83",
+        "a_devengado": "165330.83",
+        "s_girado": "163745.19",
+        "a_girado": "165330.83"
+      },
+      {
+        "hecho_key": "115657",
+        "entidad_key": "280",
+        "nivel": "E",
+        "subseries": 1,
+        "s_pia": "246900.00",
+        "a_pia": "246900.00",
+        "s_pim": "34800.00",
+        "a_pim": "34800.00",
+        "s_certificado": "34800.00",
+        "a_certificado": "34800.00",
+        "s_comprometido_anual": "34800.00",
+        "a_comprometido_anual": "34800.00",
+        "s_devengado": "34800.00",
+        "a_devengado": "34800.00",
+        "s_girado": "34785.00",
+        "a_girado": "34800.00"
+      },
+      {
+        "hecho_key": "116802",
+        "entidad_key": "2427",
+        "nivel": "R",
+        "subseries": 1,
+        "s_pia": "83346.00",
+        "a_pia": "83346.00",
+        "s_pim": "84707.00",
+        "a_pim": "84707.00",
+        "s_certificado": "84706.09",
+        "a_certificado": "84706.09",
+        "s_comprometido_anual": "82014.38",
+        "a_comprometido_anual": "82014.38",
+        "s_devengado": "82009.38",
+        "a_devengado": "82009.38",
+        "s_girado": "81689.38",
+        "a_girado": "82009.38"
+      },
+      {
+        "hecho_key": "126173",
+        "entidad_key": "280",
+        "nivel": "E",
+        "subseries": 1,
+        "s_pia": "0.00",
+        "a_pia": "0.00",
+        "s_pim": "300.00",
+        "a_pim": "300.00",
+        "s_certificado": "300.00",
+        "a_certificado": "300.00",
+        "s_comprometido_anual": "300.00",
+        "a_comprometido_anual": "300.00",
+        "s_devengado": "300.00",
+        "a_devengado": "300.00",
+        "s_girado": "0.00",
+        "a_girado": "300.00"
+      }
+    ],
+    "enlace": "igualdad exacta de clave canonica completa con META_NOMBRE; financiamiento original invertido explicitamente; referencia unica verificada"
+  },
+  "case_59000": null
+}

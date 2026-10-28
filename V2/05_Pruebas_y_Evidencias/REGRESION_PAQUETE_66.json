@@ -1,0 +1,339 @@
+{
+  "status": "correcto",
+  "checks": 66,
+  "details": [
+    {
+      "name": "Agregados sin cambios global/anual/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/anual/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/entidad/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/entidad/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/funcion/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/funcion/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/fuente/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/fuente/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/nivel/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/nivel/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/anual/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/anual/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/entidad/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/entidad/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/funcion/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/funcion/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/fuente/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/fuente/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/nivel/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/nivel/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/mensual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/mensual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios global/conciliacion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado global/conciliacion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/anual/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/anual/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/entidad/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/entidad/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/funcion/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/funcion/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/fuente/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/fuente/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/nivel/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/nivel/total",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/anual/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/anual/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/entidad/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/entidad/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/funcion/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/funcion/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/fuente/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/fuente/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/nivel/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/nivel/cohorte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/mensual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/mensual",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Agregados sin cambios filtrado/conciliacion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "CSV original conservado filtrado/conciliacion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Consultas monetarias identicas pese a configuracion portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Tres conteos globales explicitos sin duplicar KPI",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Conteos globales no cambian con anio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Centimo real visible sin redondearlo a cero millones",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Filtro incompatible no amplía",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Bloqueo persiste al cambiar de seccion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Seleccion compatible recupera solo su entidad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Expansion solo por boton explicito",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Reajuste parcial no elimina la restriccion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Guardia vacia reusable entidades",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Guardia vacia reusable funciones",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Guardia vacia reusable fuentes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Etiqueta negativa y 324 registros sin alteracion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Cuatro colores por anio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Color de 2024 en mensual filtrado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Color de 2024 consistente al cambiar de seccion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "README refleja implementacion y recuperacion",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Solo lectura y base V2",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "monetary_queries_unchanged": true,
+  "baseline_outputs": 24,
+  "databases_modified": false
+}

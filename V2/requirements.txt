@@ -1,0 +1,2 @@
+-r 03_Dashboard/requirements.txt
+-r 02_ETL_Python/requirements.txt

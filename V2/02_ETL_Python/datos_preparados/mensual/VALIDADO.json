@@ -1,0 +1,36 @@
+{
+  "valid": true,
+  "annual_facts": 150000,
+  "monthly_facts": 150000,
+  "series": 12500,
+  "periods": 48,
+  "detailed_metas": 12477,
+  "annual_controls": 28,
+  "monthly_controls": 48,
+  "series_reconciled": 12500,
+  "orphans": 0,
+  "duplicate_grains": 0,
+  "negative_months": 324,
+  "zero_months": 124976,
+  "by_year": {
+    "2022": 37500,
+    "2023": 37500,
+    "2024": 37500,
+    "2025": 37500
+  },
+  "by_government": {
+    "('2022', 'E')": 5184,
+    "('2022', 'M')": 25176,
+    "('2022', 'R')": 7140,
+    "('2023', 'E')": 5052,
+    "('2023', 'M')": 25260,
+    "('2023', 'R')": 7188,
+    "('2024', 'E')": 5052,
+    "('2024', 'M')": 25248,
+    "('2024', 'R')": 7200,
+    "('2025', 'E')": 5292,
+    "('2025', 'M')": 25080,
+    "('2025', 'R')": 7128
+  },
+  "postgres_executed": false
+}

@@ -1,0 +1,120 @@
+;
+; Archive created at 2026-10-28 17:06:20 UTC
+;     dbname: dw_mef_2022_2025_v2
+;     TOC Entries: 109
+;     Compression: 6
+;     Dump Version: 1.14-0
+;     Format: CUSTOM
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 15.19 (Debian 15.19-1.pgdg13+2)
+;     Dumped by pg_dump version: 15.19 (Debian 15.19-1.pgdg13+2)
+;
+;
+; Selected TOC Entries:
+;
+7; 2615 16901 SCHEMA - auditoria luchito
+6; 2615 16766 SCHEMA - mef luchito
+234; 1259 16961 TABLE auditoria serie_seleccionada luchito
+216; 1259 16767 TABLE mef dim_anio luchito
+228; 1259 16837 TABLE mef dim_clasificador_gasto luchito
+227; 1259 16836 SEQUENCE mef dim_clasificador_gasto_clasificador_gasto_key_seq luchito
+218; 1259 16776 TABLE mef dim_entidad luchito
+217; 1259 16775 SEQUENCE mef dim_entidad_entidad_key_seq luchito
+226; 1259 16825 TABLE mef dim_financiamiento luchito
+225; 1259 16824 SEQUENCE mef dim_financiamiento_financiamiento_key_seq luchito
+222; 1259 16800 TABLE mef dim_funcion luchito
+221; 1259 16799 SEQUENCE mef dim_funcion_funcion_key_seq luchito
+220; 1259 16788 TABLE mef dim_intervencion luchito
+219; 1259 16787 SEQUENCE mef dim_intervencion_intervencion_key_seq luchito
+224; 1259 16812 TABLE mef dim_meta luchito
+233; 1259 16923 TABLE mef dim_meta_detallada luchito
+232; 1259 16922 SEQUENCE mef dim_meta_detallada_meta_detalle_key_seq luchito
+223; 1259 16811 SEQUENCE mef dim_meta_meta_key_seq luchito
+231; 1259 16904 TABLE mef dim_periodo_mensual luchito
+236; 1259 16987 TABLE mef fact_devengado_mensual luchito
+235; 1259 16986 SEQUENCE mef fact_devengado_mensual_hecho_mensual_key_seq luchito
+230; 1259 16849 TABLE mef fact_ejecucion_presupuestaria_anual luchito
+229; 1259 16848 SEQUENCE mef fact_ejecucion_presupuestaria_anual_hecho_key_seq luchito
+238; 1259 17043 VIEW mef v_anual_cohorte_mensual luchito
+237; 1259 17039 VIEW mef v_financiamiento_conformado luchito
+3605; 0 16961 TABLE DATA auditoria serie_seleccionada luchito
+3587; 0 16767 TABLE DATA mef dim_anio luchito
+3599; 0 16837 TABLE DATA mef dim_clasificador_gasto luchito
+3589; 0 16776 TABLE DATA mef dim_entidad luchito
+3597; 0 16825 TABLE DATA mef dim_financiamiento luchito
+3593; 0 16800 TABLE DATA mef dim_funcion luchito
+3591; 0 16788 TABLE DATA mef dim_intervencion luchito
+3595; 0 16812 TABLE DATA mef dim_meta luchito
+3604; 0 16923 TABLE DATA mef dim_meta_detallada luchito
+3602; 0 16904 TABLE DATA mef dim_periodo_mensual luchito
+3607; 0 16987 TABLE DATA mef fact_devengado_mensual luchito
+3601; 0 16849 TABLE DATA mef fact_ejecucion_presupuestaria_anual luchito
+3614; 0 0 SEQUENCE SET mef dim_clasificador_gasto_clasificador_gasto_key_seq luchito
+3615; 0 0 SEQUENCE SET mef dim_entidad_entidad_key_seq luchito
+3616; 0 0 SEQUENCE SET mef dim_financiamiento_financiamiento_key_seq luchito
+3617; 0 0 SEQUENCE SET mef dim_funcion_funcion_key_seq luchito
+3618; 0 0 SEQUENCE SET mef dim_intervencion_intervencion_key_seq luchito
+3619; 0 0 SEQUENCE SET mef dim_meta_detallada_meta_detalle_key_seq luchito
+3620; 0 0 SEQUENCE SET mef dim_meta_meta_key_seq luchito
+3621; 0 0 SEQUENCE SET mef fact_devengado_mensual_hecho_mensual_key_seq luchito
+3622; 0 0 SEQUENCE SET mef fact_ejecucion_presupuestaria_anual_hecho_key_seq luchito
+3407; 2606 16973 CONSTRAINT auditoria serie_seleccionada serie_seleccionada_fuente_grano_json_key luchito
+3409; 2606 16975 CONSTRAINT auditoria serie_seleccionada serie_seleccionada_hecho_anual_key_anio_key_entidad_key_int_key luchito
+3411; 2606 16971 CONSTRAINT auditoria serie_seleccionada serie_seleccionada_pkey luchito
+3382; 2606 16903 CONSTRAINT mef fact_ejecucion_presupuestaria_anual anual_contexto_uq luchito
+3354; 2606 16774 CONSTRAINT mef dim_anio dim_anio_anio_key luchito
+3356; 2606 16772 CONSTRAINT mef dim_anio dim_anio_pkey luchito
+3378; 2606 16847 CONSTRAINT mef dim_clasificador_gasto dim_clasificador_gasto_clave_natural_key luchito
+3380; 2606 16845 CONSTRAINT mef dim_clasificador_gasto dim_clasificador_gasto_pkey luchito
+3358; 2606 16786 CONSTRAINT mef dim_entidad dim_entidad_clave_natural_key luchito
+3360; 2606 16784 CONSTRAINT mef dim_entidad dim_entidad_pkey luchito
+3374; 2606 16835 CONSTRAINT mef dim_financiamiento dim_financiamiento_clave_natural_key luchito
+3376; 2606 16833 CONSTRAINT mef dim_financiamiento dim_financiamiento_pkey luchito
+3366; 2606 16810 CONSTRAINT mef dim_funcion dim_funcion_clave_natural_key luchito
+3368; 2606 16808 CONSTRAINT mef dim_funcion dim_funcion_pkey luchito
+3362; 2606 16798 CONSTRAINT mef dim_intervencion dim_intervencion_clave_natural_key luchito
+3364; 2606 16796 CONSTRAINT mef dim_intervencion dim_intervencion_pkey luchito
+3370; 2606 16823 CONSTRAINT mef dim_meta dim_meta_clave_natural_key luchito
+3399; 2606 16938 CONSTRAINT mef dim_meta_detallada dim_meta_detallada_anio_key_entidad_key_intervencion_key_fu_key luchito
+3401; 2606 16936 CONSTRAINT mef dim_meta_detallada dim_meta_detallada_clave_natural_key luchito
+3403; 2606 16940 CONSTRAINT mef dim_meta_detallada dim_meta_detallada_meta_detalle_key_anio_key_entidad_key_in_key luchito
+3405; 2606 16934 CONSTRAINT mef dim_meta_detallada dim_meta_detallada_pkey luchito
+3372; 2606 16821 CONSTRAINT mef dim_meta dim_meta_pkey luchito
+3393; 2606 16914 CONSTRAINT mef dim_periodo_mensual dim_periodo_mensual_anio_key_mes_key luchito
+3395; 2606 16916 CONSTRAINT mef dim_periodo_mensual dim_periodo_mensual_periodo_key_anio_key_key luchito
+3397; 2606 16912 CONSTRAINT mef dim_periodo_mensual dim_periodo_mensual_pkey luchito
+3413; 2606 16993 CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_hecho_anual_key_periodo_key_key luchito
+3415; 2606 16995 CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_periodo_key_entidad_key_intervencion_key luchito
+3417; 2606 16991 CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_pkey luchito
+3384; 2606 16862 CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anio_key_entidad_key_interven_key luchito
+3386; 2606 16860 CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_anio_key_key_value_key luchito
+3388; 2606 16858 CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_pkey luchito
+3389; 1259 16898 INDEX mef fact_entidad_idx luchito
+3390; 1259 16900 INDEX mef fact_financiamiento_idx luchito
+3391; 1259 16899 INDEX mef fact_funcion_idx luchito
+3418; 1259 17038 INDEX mef mensual_clasificador_idx luchito
+3419; 1259 17037 INDEX mef mensual_entidad_idx luchito
+3420; 1259 17036 INDEX mef mensual_periodo_idx luchito
+3433; 2606 16976 FK CONSTRAINT auditoria serie_seleccionada serie_seleccionada_hecho_anual_key_anio_key_entidad_key_in_fkey luchito
+3434; 2606 16981 FK CONSTRAINT auditoria serie_seleccionada serie_seleccionada_meta_detalle_key_anio_key_entidad_key_i_fkey luchito
+3429; 2606 16941 FK CONSTRAINT mef dim_meta_detallada dim_meta_detallada_anio_key_fkey luchito
+3430; 2606 16946 FK CONSTRAINT mef dim_meta_detallada dim_meta_detallada_entidad_key_fkey luchito
+3431; 2606 16956 FK CONSTRAINT mef dim_meta_detallada dim_meta_detallada_funcion_key_fkey luchito
+3432; 2606 16951 FK CONSTRAINT mef dim_meta_detallada dim_meta_detallada_intervencion_key_fkey luchito
+3428; 2606 16917 FK CONSTRAINT mef dim_periodo_mensual dim_periodo_mensual_anio_key_fkey luchito
+3435; 2606 17016 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_clasificador_gasto_key_fkey luchito
+3436; 2606 16996 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_entidad_key_fkey luchito
+3437; 2606 17011 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_financiamiento_key_fkey luchito
+3438; 2606 17006 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_funcion_key_fkey luchito
+3439; 2606 17031 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_hecho_anual_key_anio_key_entidad_ke_fkey luchito
+3440; 2606 17001 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_intervencion_key_fkey luchito
+3441; 2606 17026 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_meta_detalle_key_anio_key_entidad_k_fkey luchito
+3442; 2606 17021 FK CONSTRAINT mef fact_devengado_mensual fact_devengado_mensual_periodo_key_anio_key_fkey luchito
+3421; 2606 16863 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_anio_key_fkey luchito
+3422; 2606 16893 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_clasificador_gasto_key_fkey luchito
+3423; 2606 16868 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_entidad_key_fkey luchito
+3424; 2606 16888 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_financiamiento_key_fkey luchito
+3425; 2606 16878 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_funcion_key_fkey luchito
+3426; 2606 16873 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_intervencion_key_fkey luchito
+3427; 2606 16883 FK CONSTRAINT mef fact_ejecucion_presupuestaria_anual fact_ejecucion_presupuestaria_anual_meta_key_fkey luchito

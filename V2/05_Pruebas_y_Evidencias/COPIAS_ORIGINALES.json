@@ -1,0 +1,576 @@
+[
+  {
+    "source": "V2_MEF_2022_2025/sql/01_modelo_anual.sql",
+    "target": "01_Base_de_Datos/sql/01_modelo_anual.sql",
+    "source_sha256": "cb5df653ae2621dff519e9cc86e5f18f6815278e2e0e6adb302080f7c671aeb8",
+    "copied_sha256": "cb5df653ae2621dff519e9cc86e5f18f6815278e2e0e6adb302080f7c671aeb8",
+    "bytes": 5718
+  },
+  {
+    "source": "V2_MEF_2022_2025/sql/02_modelo_mensual.sql",
+    "target": "01_Base_de_Datos/sql/02_modelo_mensual.sql",
+    "source_sha256": "f64b2fd4e3d602c7fb2d5b4d0d55d57ecb056023a6a554315d8f763402569bda",
+    "copied_sha256": "f64b2fd4e3d602c7fb2d5b4d0d55d57ecb056023a6a554315d8f763402569bda",
+    "bytes": 5004
+  },
+  {
+    "source": "V2_MEF_2022_2025/sql/03_consultas.sql",
+    "target": "01_Base_de_Datos/sql/03_consultas.sql",
+    "source_sha256": "a626bef205bba9d06e2607f8d8be6f94743f205adff79305910c00b8a91b8d91",
+    "copied_sha256": "a626bef205bba9d06e2607f8d8be6f94743f205adff79305910c00b8a91b8d91",
+    "bytes": 1184
+  },
+  {
+    "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.dump",
+    "target": "01_Base_de_Datos/respaldo/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.dump",
+    "source_sha256": "3da3bafb255c3fdf69884417c72f9dccfc3647422b21a8aa05af9c5682499b96",
+    "copied_sha256": "3da3bafb255c3fdf69884417c72f9dccfc3647422b21a8aa05af9c5682499b96",
+    "bytes": 22393234
+  },
+  {
+    "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.json",
+    "target": "01_Base_de_Datos/respaldo/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.json",
+    "source_sha256": "759bf11a620ab6dc9ce15ac8529b4312a33314f69b2ac75c859d40cda13f2beb",
+    "copied_sha256": "759bf11a620ab6dc9ce15ac8529b4312a33314f69b2ac75c859d40cda13f2beb",
+    "bytes": 14913
+  },
+  {
+    "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.sha256",
+    "target": "01_Base_de_Datos/respaldo/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.sha256",
+    "source_sha256": "828f56917654d491080ee06ab3f66d2b83ff18698b6f4d41a267192617520c9c",
+    "copied_sha256": "828f56917654d491080ee06ab3f66d2b83ff18698b6f4d41a267192617520c9c",
+    "bytes": 123
+  },
+  {
+    "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.toc.txt",
+    "target": "01_Base_de_Datos/respaldo/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.toc.txt",
+    "source_sha256": "67c0677e0f15f5fca1c1466464e82f1400aa185ab3b2a4694bf0c203a21566e5",
+    "copied_sha256": "67c0677e0f15f5fca1c1466464e82f1400aa185ab3b2a4694bf0c203a21566e5",
+    "bytes": 9140
+  },
+  {
+    "source": "V2_MEF_2022_2025/src/comun.py",
+    "target": "02_ETL_Python/src/comun.py",
+    "source_sha256": "f3a08e3b8395fb28342e248fb1ee4a674497438b2acde43636c439e2310f0f8f",
+    "copied_sha256": "f3a08e3b8395fb28342e248fb1ee4a674497438b2acde43636c439e2310f0f8f",
+    "bytes": 2904
+  },
+  {
+    "source": "V2_MEF_2022_2025/src/preparar_datos.py",
+    "target": "02_ETL_Python/src/preparar_datos.py",
+    "source_sha256": "1f0fa42de4e77e284ff1f21453e69fcb152bb92e8c65adf4ed912c61930f1c2c",
+    "copied_sha256": "1f0fa42de4e77e284ff1f21453e69fcb152bb92e8c65adf4ed912c61930f1c2c",
+    "bytes": 11406
+  },
+  {
+    "source": "V2_MEF_2022_2025/src/muestreo.py",
+    "target": "02_ETL_Python/src/muestreo.py",
+    "source_sha256": "860ca05728907e4ceb1ec44bf1a7f11f205bb85404b3e6647597eb094f8260ad",
+    "copied_sha256": "860ca05728907e4ceb1ec44bf1a7f11f205bb85404b3e6647597eb094f8260ad",
+    "bytes": 1352
+  },
+  {
+    "source": "V2_MEF_2022_2025/src/validar_local.py",
+    "target": "02_ETL_Python/src/validar_local.py",
+    "source_sha256": "c93441f7dc760f65007667ddc2989b8b2c41f9300c0f2c35a3e8c4b6d540e20d",
+    "copied_sha256": "c93441f7dc760f65007667ddc2989b8b2c41f9300c0f2c35a3e8c4b6d540e20d",
+    "bytes": 6293
+  },
+  {
+    "source": "V2_MEF_2022_2025/src/postgres_v2.py",
+    "target": "02_ETL_Python/src/postgres_v2.py",
+    "source_sha256": "3243f6f45b6957b1421e3b83c1fe50b471d940dd89c815ad344190e2b0bf652f",
+    "copied_sha256": "3243f6f45b6957b1421e3b83c1fe50b471d940dd89c815ad344190e2b0bf652f",
+    "bytes": 10565
+  },
+  {
+    "source": "V2_MEF_2022_2025/src/ejecutar_controlado.py",
+    "target": "02_ETL_Python/src/ejecutar_controlado.py",
+    "source_sha256": "b7a299bca497bf051aafb8752b1d2d1c621aae2ec6bd911c4c0774dce0b1f36b",
+    "copied_sha256": "b7a299bca497bf051aafb8752b1d2d1c621aae2ec6bd911c4c0774dce0b1f36b",
+    "bytes": 1915
+  },
+  {
+    "source": "V2_MEF_2022_2025/tests/test_muestreo.py",
+    "target": "02_ETL_Python/tests/test_muestreo.py",
+    "source_sha256": "935bc9ee7537a2dc782fc063bc484fac9de8c56abcd48c47557babec0748f636",
+    "copied_sha256": "935bc9ee7537a2dc782fc063bc484fac9de8c56abcd48c47557babec0748f636",
+    "bytes": 1330
+  },
+  {
+    "source": "V2_MEF_2022_2025/tests/test_seguridad_carga.py",
+    "target": "02_ETL_Python/tests/test_seguridad_carga.py",
+    "source_sha256": "88eb15dcaa23b29f88c1a761fe1662df168a0ee0cc4c032dd6be78b1f0595486",
+    "copied_sha256": "88eb15dcaa23b29f88c1a761fe1662df168a0ee0cc4c032dd6be78b1f0595486",
+    "bytes": 2382
+  },
+  {
+    "source": "V2_MEF_2022_2025/requirements.txt",
+    "target": "02_ETL_Python/requirements.txt",
+    "source_sha256": "10e1e02de7485c79e8a57a6f91e15e132b3e85bc0a0f60794d50ac1e888827b8",
+    "copied_sha256": "10e1e02de7485c79e8a57a6f91e15e132b3e85bc0a0f60794d50ac1e888827b8",
+    "bytes": 51
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/manifest.json",
+    "target": "02_ETL_Python/datos_preparados/anual/manifest.json",
+    "source_sha256": "06d2831cb89858b00d6abe636139445669425d9e7cbea647b22b2456caab81b4",
+    "copied_sha256": "06d2831cb89858b00d6abe636139445669425d9e7cbea647b22b2456caab81b4",
+    "bytes": 7163
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_anio.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_anio.csv",
+    "source_sha256": "e97503b298c6577fee6863858bdda2a13ea44fdd4002e1a2e5787121192549fa",
+    "copied_sha256": "e97503b298c6577fee6863858bdda2a13ea44fdd4002e1a2e5787121192549fa",
+    "bytes": 54
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_clasificador_gasto.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_clasificador_gasto.csv",
+    "source_sha256": "c9cdb0b2d04f0fdd7b2470cab7cb08f75216f1a69d5d042d8cd0c09837f69b38",
+    "copied_sha256": "c9cdb0b2d04f0fdd7b2470cab7cb08f75216f1a69d5d042d8cd0c09837f69b38",
+    "bytes": 295864
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_entidad.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_entidad.csv",
+    "source_sha256": "ffa9d5c75badbc3e4e96718ee6bf3b12a49b9fe890cd202fb56cc8d17a153230",
+    "copied_sha256": "ffa9d5c75badbc3e4e96718ee6bf3b12a49b9fe890cd202fb56cc8d17a153230",
+    "bytes": 1549637
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_financiamiento.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_financiamiento.csv",
+    "source_sha256": "d5d5fdce8e2ac4424c7050ad4b38420b8a9470a0cc3333da378c1a05ed822841",
+    "copied_sha256": "d5d5fdce8e2ac4424c7050ad4b38420b8a9470a0cc3333da378c1a05ed822841",
+    "bytes": 40221
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_funcion.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_funcion.csv",
+    "source_sha256": "63efec6879ad12e659b0af8f7b252354891f8e95ebf2f505c548e612a1000c1b",
+    "copied_sha256": "63efec6879ad12e659b0af8f7b252354891f8e95ebf2f505c548e612a1000c1b",
+    "bytes": 97776
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_intervencion.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_intervencion.csv",
+    "source_sha256": "e48f115f9dbe543a80ea616667f9250e01147f8bd6aa1224051b26a6da15c8bd",
+    "copied_sha256": "e48f115f9dbe543a80ea616667f9250e01147f8bd6aa1224051b26a6da15c8bd",
+    "bytes": 14319291
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_meta.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/dim_meta.csv",
+    "source_sha256": "74df148063402a49d360d7df010eaad57b1ca95a3ac11def7996cf4c9330d9a1",
+    "copied_sha256": "74df148063402a49d360d7df010eaad57b1ca95a3ac11def7996cf4c9330d9a1",
+    "bytes": 54469802
+  },
+  {
+    "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/fact_ejecucion_presupuestaria_anual.csv",
+    "target": "02_ETL_Python/datos_preparados/anual/datos_carga/fact_ejecucion_presupuestaria_anual.csv",
+    "source_sha256": "466d8d57f02e731b24746a49d5fd52dac4be81e28865fb1884676c91b213fc3e",
+    "copied_sha256": "466d8d57f02e731b24746a49d5fd52dac4be81e28865fb1884676c91b213fc3e",
+    "bytes": 28548877
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/dim_meta_detallada.csv",
+    "target": "02_ETL_Python/datos_preparados/mensual/dim_meta_detallada.csv",
+    "source_sha256": "56a230a9e1c994da211901a30e0bc5b16e1c2e18fba6c76ec6db2902afd9f614",
+    "copied_sha256": "56a230a9e1c994da211901a30e0bc5b16e1c2e18fba6c76ec6db2902afd9f614",
+    "bytes": 3575174
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/dim_periodo_mensual.csv",
+    "target": "02_ETL_Python/datos_preparados/mensual/dim_periodo_mensual.csv",
+    "source_sha256": "708a15d78ef240097908e4442e17d7ea5017816c4990bb60dc75fc0f7247d0db",
+    "copied_sha256": "708a15d78ef240097908e4442e17d7ea5017816c4990bb60dc75fc0f7247d0db",
+    "bytes": 1125
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2022.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/extraccion_2022.json",
+    "source_sha256": "4a95faed6926b5e39e76ffb1bd28cc2542fa0842a59687f31a1c38e1cd27190e",
+    "copied_sha256": "4a95faed6926b5e39e76ffb1bd28cc2542fa0842a59687f31a1c38e1cd27190e",
+    "bytes": 749
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2023.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/extraccion_2023.json",
+    "source_sha256": "cd1e392fbcb168cfd080600d346eb7a8ff6e676d90e70b9c2589e43aca483b0c",
+    "copied_sha256": "cd1e392fbcb168cfd080600d346eb7a8ff6e676d90e70b9c2589e43aca483b0c",
+    "bytes": 750
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2024.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/extraccion_2024.json",
+    "source_sha256": "3897d51e4ea59bb4a52d9c2bb04907db22f55a0f45bcd56f5226981c895e5f07",
+    "copied_sha256": "3897d51e4ea59bb4a52d9c2bb04907db22f55a0f45bcd56f5226981c895e5f07",
+    "bytes": 750
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2025.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/extraccion_2025.json",
+    "source_sha256": "fd87d7031c45c1aebec36d05c8480342f050bd69c03f5c6ce25645a383b8a0f9",
+    "copied_sha256": "fd87d7031c45c1aebec36d05c8480342f050bd69c03f5c6ce25645a383b8a0f9",
+    "bytes": 750
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/fact_devengado_mensual.csv",
+    "target": "02_ETL_Python/datos_preparados/mensual/fact_devengado_mensual.csv",
+    "source_sha256": "4349bb549ff088a444b5ecac05ee9252d7b6c0c1dc429a7341ab16cbecc1f0fa",
+    "copied_sha256": "4349bb549ff088a444b5ecac05ee9252d7b6c0c1dc429a7341ab16cbecc1f0fa",
+    "bytes": 8467666
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/manifest.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/manifest.json",
+    "source_sha256": "9718b41cd9e477a740fa303a91236b0a569872505da832732cc5c61b79276792",
+    "copied_sha256": "9718b41cd9e477a740fa303a91236b0a569872505da832732cc5c61b79276792",
+    "bytes": 10675
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2022.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/seleccion_2022.json",
+    "source_sha256": "41c1bc1e6ec7539b25add2496628f1345e784c8f9ee69c888821300006e4d69c",
+    "copied_sha256": "41c1bc1e6ec7539b25add2496628f1345e784c8f9ee69c888821300006e4d69c",
+    "bytes": 98
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2023.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/seleccion_2023.json",
+    "source_sha256": "f02f38dabd472b54c611c911eb141a6e6f4c8ea975e46bd769f299b1881a0759",
+    "copied_sha256": "f02f38dabd472b54c611c911eb141a6e6f4c8ea975e46bd769f299b1881a0759",
+    "bytes": 98
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2024.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/seleccion_2024.json",
+    "source_sha256": "c6056b79dea587c2463517284d621cdca5715e6263a142d6f948f56bbc7b811d",
+    "copied_sha256": "c6056b79dea587c2463517284d621cdca5715e6263a142d6f948f56bbc7b811d",
+    "bytes": 98
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2025.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/seleccion_2025.json",
+    "source_sha256": "2330df44f09ca595b6df4f0c394f88a8c7cc86bb5fec370e9e68d56015e8d252",
+    "copied_sha256": "2330df44f09ca595b6df4f0c394f88a8c7cc86bb5fec370e9e68d56015e8d252",
+    "bytes": 98
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/serie_seleccionada.csv",
+    "target": "02_ETL_Python/datos_preparados/mensual/serie_seleccionada.csv",
+    "source_sha256": "3ce4a440b08906a1f3d9bdb9a312d62ae53e8b922e72eff9788b88bf2d281021",
+    "copied_sha256": "3ce4a440b08906a1f3d9bdb9a312d62ae53e8b922e72eff9788b88bf2d281021",
+    "bytes": 7123943
+  },
+  {
+    "source": "V2_MEF_2022_2025/datos_preparados/lote_02/VALIDADO.json",
+    "target": "02_ETL_Python/datos_preparados/mensual/VALIDADO.json",
+    "source_sha256": "62319091be4313bee74d5524d608a0c18e0ca1eaad5db4c5abd50517a1076213",
+    "copied_sha256": "62319091be4313bee74d5524d608a0c18e0ca1eaad5db4c5abd50517a1076213",
+    "bytes": 821
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/temporal/referencia_anual.parquet",
+    "target": "02_ETL_Python/insumos_auditoria/referencia_anual.parquet",
+    "source_sha256": "70d6446170e7b4d6084b2823f09b7052c316e352aaa541956d74d1e7b8895da3",
+    "copied_sha256": "70d6446170e7b4d6084b2823f09b7052c316e352aaa541956d74d1e7b8895da3",
+    "bytes": 7665040
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2022.csv",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/cohorte_disponible_2022.csv",
+    "source_sha256": "b0f471f673c713997668942935d48c1c82bdd03085892ab36f2cdf7e193182bb",
+    "copied_sha256": "b0f471f673c713997668942935d48c1c82bdd03085892ab36f2cdf7e193182bb",
+    "bytes": 460605
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2022.json",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/resultado_2022.json",
+    "source_sha256": "6d8027992ad32f1da8810caa5535887486a4e0788a7519687a1f621c5f1e38b8",
+    "copied_sha256": "6d8027992ad32f1da8810caa5535887486a4e0788a7519687a1f621c5f1e38b8",
+    "bytes": 24220
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2023.csv",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/cohorte_disponible_2023.csv",
+    "source_sha256": "0a0920054599e824a01f054600ce51203cc62ab8c7af2dd6701f30383e4e94f6",
+    "copied_sha256": "0a0920054599e824a01f054600ce51203cc62ab8c7af2dd6701f30383e4e94f6",
+    "bytes": 472330
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2023.json",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/resultado_2023.json",
+    "source_sha256": "1dcdc5781adaf26b57556c995ffe5220aaf407302060058c8c32dcb0b937d80a",
+    "copied_sha256": "1dcdc5781adaf26b57556c995ffe5220aaf407302060058c8c32dcb0b937d80a",
+    "bytes": 24065
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2024.csv",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/cohorte_disponible_2024.csv",
+    "source_sha256": "7a9c7d41ff3da750c349420d405847d2d6cfc65d54748288dfcdb87860d74eb5",
+    "copied_sha256": "7a9c7d41ff3da750c349420d405847d2d6cfc65d54748288dfcdb87860d74eb5",
+    "bytes": 485046
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2024.json",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/resultado_2024.json",
+    "source_sha256": "856621c59c7b175af5245cdedee89203e26e15299c60a4ceffbe5571dd03837f",
+    "copied_sha256": "856621c59c7b175af5245cdedee89203e26e15299c60a4ceffbe5571dd03837f",
+    "bytes": 26013
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2025.csv",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/cohorte_disponible_2025.csv",
+    "source_sha256": "52051d0987a311c5503c7a3d213f446b57e7047eb686fd46ae8c975d6421b5c5",
+    "copied_sha256": "52051d0987a311c5503c7a3d213f446b57e7047eb686fd46ae8c975d6421b5c5",
+    "bytes": 508413
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2025.json",
+    "target": "02_ETL_Python/insumos_auditoria/evidencias/resultado_2025.json",
+    "source_sha256": "754c13607f44aa74d29b5c402b3780e6e475f6b297a2bfc6f125d95fe4767515",
+    "copied_sha256": "754c13607f44aa74d29b5c402b3780e6e475f6b297a2bfc6f125d95fe4767515",
+    "bytes": 24104
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/scripts/auditlib.py",
+    "target": "02_ETL_Python/auditoria_fuentes/auditlib.py",
+    "source_sha256": "15b316636ff899601d1055b9bbcc194d61e30013f25d71ad2cf9390638e3affe",
+    "copied_sha256": "15b316636ff899601d1055b9bbcc194d61e30013f25d71ad2cf9390638e3affe",
+    "bytes": 8028
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/scripts/mapping.py",
+    "target": "02_ETL_Python/auditoria_fuentes/mapping.py",
+    "source_sha256": "6dab49a7955bc2497c8adf756be34f1d3ee0523a4474adbf72ce1ce40f1245da",
+    "copied_sha256": "6dab49a7955bc2497c8adf756be34f1d3ee0523a4474adbf72ce1ce40f1245da",
+    "bytes": 6008
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/app.py",
+    "target": "03_Dashboard/app.py",
+    "source_sha256": "28e9e47167bf87ddbe226a83d93c6c6c2b6a9e999854b80fe1fa9a72c947d1d4",
+    "copied_sha256": "28e9e47167bf87ddbe226a83d93c6c6c2b6a9e999854b80fe1fa9a72c947d1d4",
+    "bytes": 21055
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/datos.py",
+    "target": "03_Dashboard/datos.py",
+    "source_sha256": "a1ca7daf24a7cef2927a57f7b23610f1111f33e495c47762988423e4d56ad5b6",
+    "copied_sha256": "a1ca7daf24a7cef2927a57f7b23610f1111f33e495c47762988423e4d56ad5b6",
+    "bytes": 10439
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/presentacion.py",
+    "target": "03_Dashboard/presentacion.py",
+    "source_sha256": "7b45fbe473a054987d807c6e33e7f6aa7d6b07f779917351ac927b99995d6496",
+    "copied_sha256": "7b45fbe473a054987d807c6e33e7f6aa7d6b07f779917351ac927b99995d6496",
+    "bytes": 5613
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/filtros_ui.py",
+    "target": "03_Dashboard/filtros_ui.py",
+    "source_sha256": "9495173bcd04e772072f42db67e8694de6bfb44132675f8d4d69ce79317ccc44",
+    "copied_sha256": "9495173bcd04e772072f42db67e8694de6bfb44132675f8d4d69ce79317ccc44",
+    "bytes": 463
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/estilos.css",
+    "target": "03_Dashboard/estilos.css",
+    "source_sha256": "0873979f0897d2aaf116f2aee472c3600a51ccb79cec010f55ad21e5ec63634b",
+    "copied_sha256": "0873979f0897d2aaf116f2aee472c3600a51ccb79cec010f55ad21e5ec63634b",
+    "bytes": 2734
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/requirements.txt",
+    "target": "03_Dashboard/requirements.txt",
+    "source_sha256": "66d14b8b12e7e4ed168bf7dd73333d01a1d9903b625357391cfa61665f909469",
+    "copied_sha256": "66d14b8b12e7e4ed168bf7dd73333d01a1d9903b625357391cfa61665f909469",
+    "bytes": 69
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/requirements-dev.txt",
+    "target": "03_Dashboard/requirements-dev.txt",
+    "source_sha256": "5f2a900da735f80b9bf41437d3b87ad35e234458e14369111cf6abdcc7c3ae23",
+    "copied_sha256": "5f2a900da735f80b9bf41437d3b87ad35e234458e14369111cf6abdcc7c3ae23",
+    "bytes": 41
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/verificar_dashboard.py",
+    "target": "03_Dashboard/verificar_dashboard.py",
+    "source_sha256": "352fd5ab812e6f2d082c1aa167e5c31fc0fc35d00035707ff2c72a436529c5ab",
+    "copied_sha256": "352fd5ab812e6f2d082c1aa167e5c31fc0fc35d00035707ff2c72a436529c5ab",
+    "bytes": 10771
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/verificar_visual.py",
+    "target": "03_Dashboard/verificar_visual.py",
+    "source_sha256": "783167f41f485d175c5cad0197af116a2f9c71d94f8122bf6b537479a35fd923",
+    "copied_sha256": "783167f41f485d175c5cad0197af116a2f9c71d94f8122bf6b537479a35fd923",
+    "bytes": 4600
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/verificar_correcciones.py",
+    "target": "03_Dashboard/verificar_correcciones.py",
+    "source_sha256": "d056cb42a77c344e99923aa3822f55e40a47c00de30ce24f7851d61004adb68c",
+    "copied_sha256": "d056cb42a77c344e99923aa3822f55e40a47c00de30ce24f7851d61004adb68c",
+    "bytes": 7525
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/.streamlit/config.toml",
+    "target": "03_Dashboard/.streamlit/config.toml",
+    "source_sha256": "305601d16b1204dbe9f7b11897c81e28a0839daf08783698adac26d8b8d992d3",
+    "copied_sha256": "305601d16b1204dbe9f7b11897c81e28a0839daf08783698adac26d8b8d992d3",
+    "bytes": 250
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/.streamlit/secrets.toml.example",
+    "target": "03_Dashboard/.streamlit/secrets.toml.example",
+    "source_sha256": "aa0cf7be11e73d36a91a5a592eb1af0f3c779bdf0675e027daad4d7515a1b2da",
+    "copied_sha256": "aa0cf7be11e73d36a91a5a592eb1af0f3c779bdf0675e027daad4d7515a1b2da",
+    "bytes": 149
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/tests/test_correcciones.py",
+    "target": "03_Dashboard/tests/test_correcciones.py",
+    "source_sha256": "8a2ffef2b2f36f3aeb23a86085b100e344bd45939ddc6a58cd632f78fba5623e",
+    "copied_sha256": "8a2ffef2b2f36f3aeb23a86085b100e344bd45939ddc6a58cd632f78fba5623e",
+    "bytes": 3419
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/tests/test_reglas.py",
+    "target": "03_Dashboard/tests/test_reglas.py",
+    "source_sha256": "106752c16a8ac88d03f3839120caa8634a1f5f3d3c1680f18e6bff3e418985ec",
+    "copied_sha256": "106752c16a8ac88d03f3839120caa8634a1f5f3d3c1680f18e6bff3e418985ec",
+    "bytes": 2818
+  },
+  {
+    "source": "V2_MEF_2022_2025/docs/MATRIZ_BUS_KIMBALL.md",
+    "target": "04_Documentacion/MATRIZ_BUS_KIMBALL.md",
+    "source_sha256": "f8c14654cbb43961793d0c0134a3f9cdd090f8f72dd4001f034b2a7a89e07c84",
+    "copied_sha256": "f8c14654cbb43961793d0c0134a3f9cdd090f8f72dd4001f034b2a7a89e07c84",
+    "bytes": 3404
+  },
+  {
+    "source": "V2_MEF_2022_2025/docs/MODELO_Y_REGLAS.md",
+    "target": "04_Documentacion/MODELO_Y_REGLAS.md",
+    "source_sha256": "5aa2b3923310c17c269388eaf3528872c9774bc2ce43d658f4da66e6d871e47a",
+    "copied_sha256": "5aa2b3923310c17c269388eaf3528872c9774bc2ce43d658f4da66e6d871e47a",
+    "bytes": 8613
+  },
+  {
+    "source": "V2_MEF_2022_2025/docs/esquema_v2.mmd",
+    "target": "04_Documentacion/esquema_v2.mmd",
+    "source_sha256": "8e6573fd692e4863e13cd52f506c9a9c3dc7f52a1a74fc2c80fd37f0d277dab0",
+    "copied_sha256": "8e6573fd692e4863e13cd52f506c9a9c3dc7f52a1a74fc2c80fd37f0d277dab0",
+    "bytes": 1554
+  },
+  {
+    "source": "V2_MEF_2022_2025/INFORME_IMPLEMENTACION_V2.md",
+    "target": "04_Documentacion/INFORME_IMPLEMENTACION.md",
+    "source_sha256": "e19c87089b3c63766fbbbf7dae60fc2706220e32b2cb0a864f210fe995dfcef8",
+    "copied_sha256": "e19c87089b3c63766fbbbf7dae60fc2706220e32b2cb0a864f210fe995dfcef8",
+    "bytes": 13356
+  },
+  {
+    "source": "V2_MEF_2022_2025/evidencias/restauracion_20261028T172200146209Z/INFORME_RESTAURACION.md",
+    "target": "05_Pruebas_y_Evidencias/historicas/RESTAURACION.md",
+    "source_sha256": "d8f166508097c508564cb7e6c5ad32e09e0d92af902f055c9d73856917c4d45a",
+    "copied_sha256": "d8f166508097c508564cb7e6c5ad32e09e0d92af902f055c9d73856917c4d45a",
+    "bytes": 10442
+  },
+  {
+    "source": "V2_MEF_2022_2025/evidencias/restauracion_20261028T172200146209Z/RESUMEN_FINAL.json",
+    "target": "05_Pruebas_y_Evidencias/historicas/restauracion.json",
+    "source_sha256": "83bf16a222893cc37bb726f1eec6a0dd9f83a5711784da153c4988a71dd5388a",
+    "copied_sha256": "83bf16a222893cc37bb726f1eec6a0dd9f83a5711784da153c4988a71dd5388a",
+    "bytes": 10967
+  },
+  {
+    "source": "V2_MEF_2022_2025/evidencias/implementacion_20261025T084833Z/RESUMEN_FINAL.json",
+    "target": "05_Pruebas_y_Evidencias/historicas/implementacion.json",
+    "source_sha256": "4e69ad25cbf1695bbbbf99aea209ef6eb2e1ed92df1adfa291e1a572c65b7eb7",
+    "copied_sha256": "4e69ad25cbf1695bbbbf99aea209ef6eb2e1ed92df1adfa291e1a572c65b7eb7",
+    "bytes": 670
+  },
+  {
+    "source": "V2_MEF_2022_2025/auditoria_dashboard_20261028T181652Z/INFORME_AUDITORIA.md",
+    "target": "05_Pruebas_y_Evidencias/historicas/AUDITORIA_DASHBOARD.md",
+    "source_sha256": "dd2430c8d6152e17f39b7c0c52f3f87fb5b416fcd83ba700e103205c7fae458a",
+    "copied_sha256": "dd2430c8d6152e17f39b7c0c52f3f87fb5b416fcd83ba700e103205c7fae458a",
+    "bytes": 15662
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/INFORME_CORRECCIONES.md",
+    "target": "05_Pruebas_y_Evidencias/historicas/CORRECCIONES_DASHBOARD.md",
+    "source_sha256": "c7a94f840d72a0d01238cbb29350bc172a551ea68e2d7cbfafbcd64da2261a35",
+    "copied_sha256": "c7a94f840d72a0d01238cbb29350bc172a551ea68e2d7cbfafbcd64da2261a35",
+    "bytes": 8401
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/verificacion_1793215276222182700.json",
+    "target": "05_Pruebas_y_Evidencias/historicas/dashboard_131.json",
+    "source_sha256": "878d763a3ae3b28d6166ab2b1e240ef6ec45bb08aa8fc9fb9ff9b338022cae25",
+    "copied_sha256": "878d763a3ae3b28d6166ab2b1e240ef6ec45bb08aa8fc9fb9ff9b338022cae25",
+    "bytes": 9873
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/regresion_1793215324954709600.json",
+    "target": "05_Pruebas_y_Evidencias/historicas/dashboard_66.json",
+    "source_sha256": "d35519ef32f7a5df9b07089f1ef4679f835e8b021f4dcfbede46381db12b2bcc",
+    "copied_sha256": "d35519ef32f7a5df9b07089f1ef4679f835e8b021f4dcfbede46381db12b2bcc",
+    "bytes": 8217
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/RESUMEN_CORRECCIONES.json",
+    "target": "05_Pruebas_y_Evidencias/historicas/RESUMEN_CORRECCIONES.json",
+    "source_sha256": "53f0900b59a522bd213fd1c8a2581290be6c111f60e7c31c7c9afce9c9330774",
+    "copied_sha256": "53f0900b59a522bd213fd1c8a2581290be6c111f60e7c31c7c9afce9c9330774",
+    "bytes": 2089
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/1440_1_superior.png",
+    "target": "05_Pruebas_y_Evidencias/capturas/1440_1_superior.png",
+    "source_sha256": "27ff0dcdad7f070fc285fd99f347408f6b9f6598c13c7a68144bd776e980075d",
+    "copied_sha256": "27ff0dcdad7f070fc285fd99f347408f6b9f6598c13c7a68144bd776e980075d",
+    "bytes": 337404
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/390_3_graficos.png",
+    "target": "05_Pruebas_y_Evidencias/capturas/390_3_graficos.png",
+    "source_sha256": "741f0aa66c75093b4246785f516af4bcfc34aa9391c3e35ff30aa73ab33314f7",
+    "copied_sha256": "741f0aa66c75093b4246785f516af4bcfc34aa9391c3e35ff30aa73ab33314f7",
+    "bytes": 76457
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/BASELINE_RESULTADOS.json",
+    "target": "05_Pruebas_y_Evidencias/fixtures/BASELINE_RESULTADOS.json",
+    "source_sha256": "babac19a3b1af04eda8b10c78c7c24b03467aa6f96b6982c7be0ba6ff6abc7bb",
+    "copied_sha256": "babac19a3b1af04eda8b10c78c7c24b03467aa6f96b6982c7be0ba6ff6abc7bb",
+    "bytes": 2818068
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/antes/dashboard/datos.py",
+    "target": "05_Pruebas_y_Evidencias/fixtures/antes/dashboard/datos.py",
+    "source_sha256": "33f6e26c7ac7015bd069ba48233bc5e76a125fa1ea2c7f2d12640c8b5336dac7",
+    "copied_sha256": "33f6e26c7ac7015bd069ba48233bc5e76a125fa1ea2c7f2d12640c8b5336dac7",
+    "bytes": 10425
+  },
+  {
+    "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/fixture_descargas.json",
+    "target": "05_Pruebas_y_Evidencias/fixtures/evidencias/fixture_descargas.json",
+    "source_sha256": "c383379b3e23dfc0801ea4225c6ea5fd03f5d6369ed2836f8a365222bf03602e",
+    "copied_sha256": "c383379b3e23dfc0801ea4225c6ea5fd03f5d6369ed2836f8a365222bf03602e",
+    "bytes": 131
+  },
+  {
+    "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/INFORME_AUDITORIA_POBLACIONAL_2022_2025.md",
+    "target": "04_Documentacion/AUDITORIA_FUENTES.md",
+    "source_sha256": "582ae52e86e76a613dbcd62f386e6da6aae51c112e5ac0c7003deecfec5aa55e",
+    "copied_sha256": "582ae52e86e76a613dbcd62f386e6da6aae51c112e5ac0c7003deecfec5aa55e",
+    "bytes": 27567
+  }
+]

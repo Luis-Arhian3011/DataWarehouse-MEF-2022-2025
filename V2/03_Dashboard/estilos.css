@@ -1,0 +1,24 @@
+[data-testid="stAppViewContainer"]{background:radial-gradient(ellipse at 90% 0%,#12344866,transparent 50%),#091524}
+[data-testid="stSidebar"]{background:#0C1C2D;border-right:1px solid #25394D}
+.block-container{max-width:1480px;padding-top:2rem;padding-bottom:3rem}
+.brand{font-size:2rem;font-weight:800;letter-spacing:.1em;color:#F4F8FC}.brand span{color:#35D6C6}
+.brand-sub{font-size:.68rem;letter-spacing:.18em;color:#91A8BF;margin:0 0 2rem}
+.hero{padding:1.6rem 1.9rem;border:1px solid #2B4359;border-radius:18px;background:linear-gradient(120deg,#10273C,#102236);margin-bottom:1rem;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-50px;top:-70px;width:260px;height:260px;border:1px solid #35D6C630;border-radius:50%;pointer-events:none}
+.eyebrow{color:#35D6C6;font-size:.69rem;font-weight:700;letter-spacing:.18em;margin-bottom:.5rem}
+.hero h1{font-size:clamp(1.7rem,3vw,2.7rem);font-weight:700;letter-spacing:-.035em;margin:0 0 .4rem;line-height:1.2}
+.hero p{color:#AAC0D4;font-size:.95rem;max-width:750px;line-height:1.6;margin-bottom:1rem}
+.pill{display:inline-block;border:1px solid #34576A;border-radius:30px;padding:.25rem .7rem;margin-right:.45rem;margin-bottom:.2rem;color:#ABE9E2;font-size:.72rem}
+.pill.gold{border-color:#7F6740;color:#E7BF72}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1.2rem 0}
+.kpi{border:1px solid #294159;background:linear-gradient(135deg,#122A40,#0F2033);border-radius:14px;padding:1.15rem 1.25rem;min-height:135px}
+.kpi-label{font-size:.75rem;font-weight:600;letter-spacing:.05em;color:#A8BDCF}.kpi-value{font-size:clamp(1.2rem,1.8vw,1.85rem);font-weight:750;color:#F4F8FC;margin:.4rem 0;white-space:nowrap}
+.kpi-note{font-size:.71rem;color:#83A6BA;line-height:1.45}.notice{border-left:3px solid #E7BF72;background:#172A3C;border-radius:6px;padding:.85rem 1rem;color:#D8E4ED;font-size:.84rem;margin:.9rem 0}
+[data-testid="stMetric"]{background:#102236;border:1px solid #294159;border-radius:12px;padding:1rem}
+[data-testid="stPlotlyChart"]{border:1px solid #294159;border-radius:14px;overflow:hidden}
+[data-testid="stDataFrame"]{border:1px solid #294159;border-radius:10px}
+[data-testid="stCaptionContainer"]{color:#9FB4C8;line-height:1.55}
+h2,h3{letter-spacing:-.02em}h3{font-size:1.2rem!important}
+[data-testid="stDownloadButton"] button{border-color:#35566D}
+@media(max-width:950px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding:1.4rem}.block-container{padding-left:1rem;padding-right:1rem}.kpi-value{font-size:1.5rem}}
+@media(max-width:480px){.kpis{gap:.6rem}.kpi{padding:.85rem;min-height:120px}.kpi-value{font-size:1.12rem}.hero h1{font-size:1.8rem}.pill{font-size:.65rem}}

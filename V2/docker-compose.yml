@@ -1,0 +1,19 @@
+name: ${COMPOSE_PROJECT_NAME:-mef-v2-entrega}
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ${PGUSER:?Completar PGUSER en .env}
+      POSTGRES_PASSWORD: ${PGPASSWORD:?Completar PGPASSWORD privado en .env}
+      POSTGRES_DB: postgres
+    ports:
+      - "127.0.0.1:${PGPORT:-55432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$${POSTGRES_USER}\" -d postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  pgdata:

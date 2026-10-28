@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+**/secrets.toml
+**/.venv*/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+*.log
+02_ETL_Python/trabajo/
+02_ETL_Python/fuentes_externas/
+05_Pruebas_y_Evidencias/ejecuciones/
+# No se excluyen el dump ni los doce CSV preparados necesarios.

@@ -1,0 +1,7 @@
+{
+  "pg_restore_list_exit_code": 0,
+  "table_data_entries": 12,
+  "foreign_key_entries": 22,
+  "restore_executed": false,
+  "bytes": 22393234
+}

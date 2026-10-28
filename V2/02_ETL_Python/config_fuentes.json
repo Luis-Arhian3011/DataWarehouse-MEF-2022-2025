@@ -1,0 +1,11 @@
+{
+  "database": "dw_mef_2022_2025_v2",
+  "seed": "MEF_V2_DEVENGADO_2022_2025_V1",
+  "series_per_year": 3125,
+  "memory_limit": "768MiB",
+  "threads": 2,
+  "annual_snapshot": "datos_preparados/anual",
+  "audit_work": "trabajo/auditoria",
+  "reference": "insumos_auditoria/referencia_anual.parquet",
+  "source_directory": "fuentes_externas"
+}

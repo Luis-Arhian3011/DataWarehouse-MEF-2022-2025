@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "resources_created": false,
+  "command_scope": "docker compose config --quiet; sin iniciar servicios"
+}

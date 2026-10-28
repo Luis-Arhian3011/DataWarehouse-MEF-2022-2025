@@ -1,0 +1,367 @@
+{
+  "state": "preparado_pendiente_verificacion",
+  "database": "dw_mef_2022_2025_v2",
+  "seed": "MEF_V2_DEVENGADO_2022_2025_V1",
+  "files": [
+    {
+      "file": "dim_periodo_mensual.csv",
+      "columns": [
+        "periodo_key",
+        "anio_key",
+        "mes",
+        "mes_nombre"
+      ],
+      "rows": 48,
+      "sha256": "708a15d78ef240097908e4442e17d7ea5017816c4990bb60dc75fc0f7247d0db"
+    },
+    {
+      "file": "dim_meta_detallada.csv",
+      "columns": [
+        "meta_detalle_key",
+        "anio_key",
+        "entidad_key",
+        "intervencion_key",
+        "funcion_key",
+        "sec_func",
+        "finalidad",
+        "meta",
+        "departamento_meta",
+        "meta_nombre",
+        "departamento_meta_nombre",
+        "clave_natural"
+      ],
+      "rows": 12477,
+      "sha256": "56a230a9e1c994da211901a30e0bc5b16e1c2e18fba6c76ec6db2902afd9f614"
+    },
+    {
+      "file": "serie_seleccionada.csv",
+      "columns": [
+        "hecho_anual_key",
+        "anio_key",
+        "entidad_key",
+        "intervencion_key",
+        "funcion_key",
+        "meta_key",
+        "financiamiento_key",
+        "clasificador_gasto_key",
+        "meta_detalle_key",
+        "fuente_grano_json",
+        "fuente_sha256",
+        "semilla",
+        "prioridad_hash",
+        "entidad_natural",
+        "poblacion_estrato",
+        "cuota_estrato"
+      ],
+      "rows": 12500,
+      "sha256": "3ce4a440b08906a1f3d9bdb9a312d62ae53e8b922e72eff9788b88bf2d281021"
+    },
+    {
+      "file": "fact_devengado_mensual.csv",
+      "columns": [
+        "hecho_mensual_key",
+        "hecho_anual_key",
+        "periodo_key",
+        "anio_key",
+        "entidad_key",
+        "intervencion_key",
+        "funcion_key",
+        "meta_detalle_key",
+        "financiamiento_key",
+        "clasificador_gasto_key",
+        "devengado"
+      ],
+      "rows": 150000,
+      "sha256": "4349bb549ff088a444b5ecac05ee9252d7b6c0c1dc429a7341ab16cbecc1f0fa"
+    }
+  ],
+  "annual_files": [
+    {
+      "table": "mef.dim_anio",
+      "file": "datos_carga/dim_anio.csv",
+      "columns": [
+        "anio_key",
+        "anio"
+      ],
+      "rows": 4,
+      "sha256": "e97503b298c6577fee6863858bdda2a13ea44fdd4002e1a2e5787121192549fa"
+    },
+    {
+      "table": "mef.dim_entidad",
+      "file": "datos_carga/dim_entidad.csv",
+      "columns": [
+        "entidad_key",
+        "clave_natural",
+        "nivel_gobierno",
+        "sector",
+        "pliego",
+        "ejecutora",
+        "sec_ejec",
+        "departamento_ejecutora",
+        "provincia_ejecutora",
+        "distrito_ejecutora",
+        "nivel_gobierno_nombre",
+        "sector_nombre",
+        "pliego_nombre",
+        "ejecutora_nombre",
+        "departamento_ejecutora_nombre",
+        "provincia_ejecutora_nombre",
+        "distrito_ejecutora_nombre",
+        "nombres_observados"
+      ],
+      "rows": 2898,
+      "sha256": "ffa9d5c75badbc3e4e96718ee6bf3b12a49b9fe890cd202fb56cc8d17a153230"
+    },
+    {
+      "table": "mef.dim_intervencion",
+      "file": "datos_carga/dim_intervencion.csv",
+      "columns": [
+        "intervencion_key",
+        "clave_natural",
+        "programa_ppto",
+        "tipo_act_proy",
+        "producto_proyecto",
+        "actividad_accion_obra",
+        "programa_ppto_nombre",
+        "tipo_act_proy_nombre",
+        "producto_proyecto_nombre",
+        "actividad_accion_obra_nombre",
+        "nombres_observados"
+      ],
+      "rows": 18654,
+      "sha256": "e48f115f9dbe543a80ea616667f9250e01147f8bd6aa1224051b26a6da15c8bd"
+    },
+    {
+      "table": "mef.dim_funcion",
+      "file": "datos_carga/dim_funcion.csv",
+      "columns": [
+        "funcion_key",
+        "clave_natural",
+        "funcion",
+        "division_funcional",
+        "grupo_funcional",
+        "funcion_nombre",
+        "division_funcional_nombre",
+        "grupo_funcional_nombre",
+        "nombres_observados"
+      ],
+      "rows": 356,
+      "sha256": "63efec6879ad12e659b0af8f7b252354891f8e95ebf2f505c548e612a1000c1b"
+    },
+    {
+      "table": "mef.dim_meta",
+      "file": "datos_carga/dim_meta.csv",
+      "columns": [
+        "meta_key",
+        "clave_natural",
+        "anio",
+        "meta",
+        "meta_nombre",
+        "departamento_meta",
+        "departamento_meta_nombre",
+        "nombres_observados"
+      ],
+      "rows": 121305,
+      "sha256": "74df148063402a49d360d7df010eaad57b1ca95a3ac11def7996cf4c9330d9a1"
+    },
+    {
+      "table": "mef.dim_financiamiento",
+      "file": "datos_carga/dim_financiamiento.csv",
+      "columns": [
+        "financiamiento_key",
+        "clave_natural",
+        "fuente_financiamiento",
+        "rubro",
+        "tipo_recurso",
+        "fuente_financiamiento_nombre",
+        "rubro_nombre",
+        "tipo_recurso_nombre",
+        "nombres_observados"
+      ],
+      "rows": 114,
+      "sha256": "d5d5fdce8e2ac4424c7050ad4b38420b8a9470a0cc3333da378c1a05ed822841"
+    },
+    {
+      "table": "mef.dim_clasificador_gasto",
+      "file": "datos_carga/dim_clasificador_gasto.csv",
+      "columns": [
+        "clasificador_gasto_key",
+        "clave_natural",
+        "categoria_gasto",
+        "tipo_transaccion",
+        "generica",
+        "subgenerica",
+        "subgenerica_det",
+        "especifica",
+        "especifica_det",
+        "categoria_gasto_nombre",
+        "generica_nombre",
+        "subgenerica_nombre",
+        "subgenerica_det_nombre",
+        "especifica_nombre",
+        "especifica_det_nombre",
+        "nombres_observados"
+      ],
+      "rows": 476,
+      "sha256": "c9cdb0b2d04f0fdd7b2470cab7cb08f75216f1a69d5d042d8cd0c09837f69b38"
+    },
+    {
+      "table": "mef.fact_ejecucion_presupuestaria_anual",
+      "file": "datos_carga/fact_ejecucion_presupuestaria_anual.csv",
+      "columns": [
+        "hecho_key",
+        "anio_key",
+        "entidad_key",
+        "intervencion_key",
+        "funcion_key",
+        "meta_key",
+        "financiamiento_key",
+        "clasificador_gasto_key",
+        "key_value",
+        "pia",
+        "pim",
+        "certificado",
+        "comprometido_anual",
+        "comprometido",
+        "devengado",
+        "girado",
+        "hash_seleccion",
+        "poblacion_estrato",
+        "cuota_estrato"
+      ],
+      "rows": 150000,
+      "sha256": "466d8d57f02e731b24746a49d5fd52dac4be81e28865fb1884676c91b213fc3e"
+    }
+  ],
+  "annual_totals": [
+    {
+      "anio": 2022,
+      "hechos": 37500,
+      "pia": "7160329078.00",
+      "pim": "4444957539.00",
+      "certificado": "3117400430.81",
+      "comprometido_anual": "2987917276.19",
+      "comprometido": "3166518205.05",
+      "devengado": "3051967587.64",
+      "girado": "3012287406.45"
+    },
+    {
+      "anio": 2023,
+      "hechos": 37500,
+      "pia": "2452274432.00",
+      "pim": "2862145499.00",
+      "certificado": "2728618602.90",
+      "comprometido_anual": "2618795165.87",
+      "comprometido": "2516106901.58",
+      "devengado": "2491634677.99",
+      "girado": "2488350151.22"
+    },
+    {
+      "anio": 2024,
+      "hechos": 37500,
+      "pia": "2907341142.00",
+      "pim": "3494380573.00",
+      "certificado": "3382293746.88",
+      "comprometido_anual": "3298710845.74",
+      "comprometido": "3296212002.76",
+      "devengado": "3260710447.90",
+      "girado": "3256666735.87"
+    },
+    {
+      "anio": 2025,
+      "hechos": 37500,
+      "pia": "2925939597.00",
+      "pim": "3551680414.00",
+      "certificado": "3462054522.42",
+      "comprometido_anual": "3393490905.76",
+      "comprometido": "3271586534.89",
+      "devengado": "3224421680.28",
+      "girado": "3223087084.13"
+    }
+  ],
+  "monthly_totals": {
+    "202201": "11682699.02",
+    "202202": "16745977.44",
+    "202203": "16967340.92",
+    "202204": "18178156.40",
+    "202205": "17777311.01",
+    "202206": "18955143.29",
+    "202207": "20122529.54",
+    "202208": "16085094.31",
+    "202209": "20400187.70",
+    "202210": "24963202.93",
+    "202211": "22060383.91",
+    "202212": "25098124.54",
+    "202301": "17313543.63",
+    "202302": "24537230.24",
+    "202303": "25046470.32",
+    "202304": "12677077.96",
+    "202305": "19974454.15",
+    "202306": "25384873.98",
+    "202307": "23021974.03",
+    "202308": "41959472.31",
+    "202309": "19274374.12",
+    "202310": "35828516.45",
+    "202311": "16352947.92",
+    "202312": "44308239.63",
+    "202401": "17500550.83",
+    "202402": "26652447.41",
+    "202403": "13831150.57",
+    "202404": "20020365.63",
+    "202405": "20733675.38",
+    "202406": "18351999.86",
+    "202407": "45731366.38",
+    "202408": "28003778.58",
+    "202409": "33544127.46",
+    "202410": "24809979.30",
+    "202411": "29594043.90",
+    "202412": "49478086.99",
+    "202501": "15845829.51",
+    "202502": "15182712.06",
+    "202503": "15784724.63",
+    "202504": "14947614.19",
+    "202505": "23190217.81",
+    "202506": "24627635.02",
+    "202507": "23151358.20",
+    "202508": "26706681.48",
+    "202509": "20469883.44",
+    "202510": "23324464.16",
+    "202511": "25394215.71",
+    "202512": "41222383.13"
+  },
+  "provenance": [
+    {
+      "year": 2022,
+      "source_sha256": "a70c95e3c9ca7de0ad550777fd1385905bbc90cf3a0aed015af4f35793ecd150",
+      "parquet_sha256": "6ac9d8c50cdb5e1745402b845dc632724fb22d6aeac14dc9668122d83919e47a",
+      "parquet_historic_hash_verified": true,
+      "source_stat_unchanged": true,
+      "matched": 3125
+    },
+    {
+      "year": 2023,
+      "source_sha256": "2c36495b2c6c2fc87617f3381e687e5256e61ff97d318fdd7346c9196376eeac",
+      "parquet_sha256": "747fd7826ba9904528fa3a842c7bc803cb13716c6a2169c2e99ebe0740796997",
+      "parquet_historic_hash_verified": false,
+      "source_stat_unchanged": true,
+      "matched": 3125
+    },
+    {
+      "year": 2024,
+      "source_sha256": "189c01c98df5476061d4572cf86e531e4ce1946eb945d36b4f7d31e0e1ab9789",
+      "parquet_sha256": "3ab93ad9002ac82de7c2b794e423e07400ec5d4ed632a1a063f9a44ee99f2241",
+      "parquet_historic_hash_verified": false,
+      "source_stat_unchanged": true,
+      "matched": 3125
+    },
+    {
+      "year": 2025,
+      "source_sha256": "c7437562c20fdbaf6d80aeeb1e75d844e74e31dad0006f6f804765651ff38f92",
+      "parquet_sha256": "6f3b67e2b793309a4d76dad440142321cfd3f2b40c384230d46ba313ad96bf30",
+      "parquet_historic_hash_verified": false,
+      "source_stat_unchanged": true,
+      "matched": 3125
+    }
+  ],
+  "elapsed_seconds": 16.9
+}

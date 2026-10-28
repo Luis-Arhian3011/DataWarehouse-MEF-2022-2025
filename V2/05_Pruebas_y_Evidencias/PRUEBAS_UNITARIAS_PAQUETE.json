@@ -1,0 +1,17 @@
+[
+  {
+    "suite": "dashboard",
+    "exit_code": 0,
+    "tests": 19
+  },
+  {
+    "suite": "etl",
+    "exit_code": 0,
+    "tests": 10
+  },
+  {
+    "suite": "seguridad",
+    "exit_code": 0,
+    "tests": 4
+  }
+]

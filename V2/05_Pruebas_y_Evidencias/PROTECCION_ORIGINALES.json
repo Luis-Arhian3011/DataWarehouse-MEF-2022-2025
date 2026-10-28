@@ -1,0 +1,336 @@
+{
+  "status": "correcto",
+  "source_files_checked": 82,
+  "all_sources_unchanged": true,
+  "checks": [
+    {
+      "source": "V2_MEF_2022_2025/sql/01_modelo_anual.sql",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/sql/02_modelo_mensual.sql",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/sql/03_consultas.sql",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.dump",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.sha256",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/respaldos/dw_mef_2022_2025_v2_completo_20261028T170603643031Z.toc.txt",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/src/comun.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/src/preparar_datos.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/src/muestreo.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/src/validar_local.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/src/postgres_v2.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/src/ejecutar_controlado.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/tests/test_muestreo.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/tests/test_seguridad_carga.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/requirements.txt",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/manifest.json",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_anio.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_clasificador_gasto.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_entidad.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_financiamiento.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_funcion.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_intervencion.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/dim_meta.csv",
+      "unchanged": true
+    },
+    {
+      "source": "ENTREGA_FINAL/02_ETL_Python/datos_carga/fact_ejecucion_presupuestaria_anual.csv",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/dim_meta_detallada.csv",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/dim_periodo_mensual.csv",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2022.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2023.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2024.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/extraccion_2025.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/fact_devengado_mensual.csv",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/manifest.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2022.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2023.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2024.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/seleccion_2025.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/serie_seleccionada.csv",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/datos_preparados/lote_02/VALIDADO.json",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/temporal/referencia_anual.parquet",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2022.csv",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2022.json",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2023.csv",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2023.json",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2024.csv",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2024.json",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/cohorte_disponible_2025.csv",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/evidencias/resultado_2025.json",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/scripts/auditlib.py",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/scripts/mapping.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/app.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/datos.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/presentacion.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/filtros_ui.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/estilos.css",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/requirements.txt",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/requirements-dev.txt",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/verificar_dashboard.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/verificar_visual.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/verificar_correcciones.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/.streamlit/config.toml",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/.streamlit/secrets.toml.example",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/tests/test_correcciones.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/tests/test_reglas.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/docs/MATRIZ_BUS_KIMBALL.md",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/docs/MODELO_Y_REGLAS.md",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/docs/esquema_v2.mmd",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/INFORME_IMPLEMENTACION_V2.md",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/evidencias/restauracion_20261028T172200146209Z/INFORME_RESTAURACION.md",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/evidencias/restauracion_20261028T172200146209Z/RESUMEN_FINAL.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/evidencias/implementacion_20261025T084833Z/RESUMEN_FINAL.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/auditoria_dashboard_20261028T181652Z/INFORME_AUDITORIA.md",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/INFORME_CORRECCIONES.md",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/verificacion_1793215276222182700.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/regresion_1793215324954709600.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/RESUMEN_CORRECCIONES.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/1440_1_superior.png",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/390_3_graficos.png",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/BASELINE_RESULTADOS.json",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/antes/dashboard/datos.py",
+      "unchanged": true
+    },
+    {
+      "source": "V2_MEF_2022_2025/dashboard/evidencias/correcciones_20261028T191147Z/evidencias/fixture_descargas.json",
+      "unchanged": true
+    },
+    {
+      "source": "analisis_ampliacion/reanudacion_mensual_20261025T070033Z/INFORME_AUDITORIA_POBLACIONAL_2022_2025.md",
+      "unchanged": true
+    }
+  ],
+  "scope": "Archivos originales utilizados; comparacion con hashes registrados antes de copiar. No certifica archivos ajenos al inventario."
+}

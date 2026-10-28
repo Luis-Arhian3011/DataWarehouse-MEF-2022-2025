@@ -1,0 +1,23 @@
+erDiagram
+    dim_anio ||--o{ fact_ejecucion_presupuestaria_anual : anio_key
+    dim_entidad ||--o{ fact_ejecucion_presupuestaria_anual : entidad_key
+    dim_intervencion ||--o{ fact_ejecucion_presupuestaria_anual : intervencion_key
+    dim_funcion ||--o{ fact_ejecucion_presupuestaria_anual : funcion_key
+    dim_meta ||--o{ fact_ejecucion_presupuestaria_anual : meta_key
+    dim_financiamiento ||--o{ fact_ejecucion_presupuestaria_anual : financiamiento_key
+    dim_clasificador_gasto ||--o{ fact_ejecucion_presupuestaria_anual : clasificador_gasto_key
+    dim_anio ||--o{ dim_periodo_mensual : anio_key
+    dim_anio ||--o{ dim_meta_detallada : anio_key
+    dim_entidad ||--o{ dim_meta_detallada : entidad_key
+    dim_intervencion ||--o{ dim_meta_detallada : intervencion_key
+    dim_funcion ||--o{ dim_meta_detallada : funcion_key
+    dim_periodo_mensual ||--o{ fact_devengado_mensual : periodo_y_anio
+    dim_entidad ||--o{ fact_devengado_mensual : entidad_key
+    dim_intervencion ||--o{ fact_devengado_mensual : intervencion_key
+    dim_funcion ||--o{ fact_devengado_mensual : funcion_key
+    dim_financiamiento ||--o{ fact_devengado_mensual : financiamiento_key
+    dim_clasificador_gasto ||--o{ fact_devengado_mensual : clasificador_gasto_key
+    dim_meta_detallada ||--o{ fact_devengado_mensual : contexto_compuesto
+    fact_ejecucion_presupuestaria_anual ||--o| serie_seleccionada : linaje_y_contexto
+    dim_meta_detallada ||--o{ serie_seleccionada : contexto_compuesto
+    serie_seleccionada ||--|{ fact_devengado_mensual : linaje_y_contexto
